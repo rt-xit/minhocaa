@@ -1,0 +1,39 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="minhocaa.Bordado"   
+
+             Title="Bordado">
+    <Grid>
+        <Label Text="Bordado"
+               FontSize="18"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center" />
+        <Grid RowDefinitions="Auto, *"
+              ColumnDefinitions="*, *"
+              Margin="20">
+            <Label Text="NOME:"
+                   Grid.Row="0"
+                   Grid.Column="0" />
+            <Label Text="QUANTIDADE:"
+                   Grid.Row="0"
+                   Grid.Column="1" />
+            <Button Text="Pedro"
+                    Grid.Row="1"
+                    Grid.Column="0"
+                    Clicked="NomeButtonClicked" />
+            <Label Text="60 Por Hora"
+                   Grid.Row="1"
+                   Grid.Column="1" />
+            </Grid>
+        <Grid RowDefinitions="Auto"
+              ColumnDefinitions="*,Auto"
+              Margin="20">
+            <Button Text="Voltar"
+                    Grid.Column="0"
+                    Clicked="Voltar" />
+            <Button Text="="
+                    Grid.Column="1"
+                    Clicked="Calcular" />
+        </Grid>
+    </Grid>
+</ContentPage>

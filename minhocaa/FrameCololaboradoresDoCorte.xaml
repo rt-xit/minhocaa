@@ -1,0 +1,27 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="minhocaa.FrameColaboradorDoCorte"   
+
+             Title="FrameColaboradorDoCorte">
+    <Grid>
+        <Label Text="Deseja adicionar novo colaborador?"
+               FontSize="18"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center" />
+        <Entry x:Name="NomeColaboradorEntry"
+               Placeholder="Digite o nome"
+               Margin="20" />
+        <Grid RowDefinitions="1*"
+              ColumnDefinitions="*,Auto,*">
+            <Button Text="️"
+                    Grid.Column="1"
+                    Clicked="ExcluirColaborador" />
+            <Button Text="+"
+                    Grid.Column="2"
+                    Clicked="AdicionarColaborador" />
+        </Grid>
+        <Button Text="Voltar"
+                Margin="20,0,20,20"
+                Clicked="Voltar" />
+    </Grid>
+</ContentPage>

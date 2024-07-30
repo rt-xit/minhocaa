@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="minhocaa.ColaboradoresDoCorte"
+             BackgroundColor="Gray">
+    <VerticalStackLayout Padding="20" Spacing="20" VerticalOptions="Center" HorizontalOptions="Center">
+        <Label Text="Colaboradores de corte" 
+               HorizontalOptions="Center" 
+               TextColor="White"
+               FontAttributes="Bold"
+               Margin="0, 10"/>
+        <Button Text="Cadastro" 
+                BackgroundColor="LightGray" 
+                TextColor="Black" 
+                HorizontalOptions="Center"
+                Clicked="OnCadastroClicked"
+                WidthRequest="150"/>
+        <Grid ColumnDefinitions="*,*"
+              RowDefinitions="Auto,Auto,Auto">
+            <Button Text="Carlos" 
+                    BackgroundColor="LightGray" 
+                    TextColor="Black" 
+                    Clicked="OnColaboradorClicked"
+                    Margin="5"/>
+            <Button Text="Renato" 
+                    BackgroundColor="LightGray" 
+                    TextColor="Black" 
+                    Grid.Column="1" 
+                    Clicked="OnColaboradorClicked"
+                    Margin="5"/>
+            <Button Text="Lucas" 
+                    BackgroundColor="LightGray" 
+                    TextColor="Black" 
+                    Grid.Row="1" 
+                    Clicked="OnColaboradorClicked"
+                    Margin="5"/>
+            <Button Text="Juliana" 
+                    BackgroundColor="LightGray" 
+                    TextColor="Black" 
+                    Grid.Row="1" 
+                    Grid.Column="1" 
+                    Clicked="OnColaboradorClicked"
+                    Margin="5"/>
+            <Button Text="Roberto" 
+                    BackgroundColor="LightGray" 
+                    TextColor="Black" 
+                    Grid.Row="2" 
+                    Clicked="OnColaboradorClicked"
+                    Margin="5"/>
+            <Button Text="Larissa" 
+                    BackgroundColor="LightGray" 
+                    TextColor="Black" 
+                    Grid.Row="2" 
+                    Grid.Column="1" 
+                    Clicked="OnColaboradorClicked"
+                    Margin="5"/>
+        </Grid>
+        <HorizontalStackLayout Spacing="10" HorizontalOptions="Center" Margin="0, 20">
+            <Button Text="VOLTAR" 
+                    BackgroundColor="Blue" 
+                    TextColor="White" 
+                    Clicked="OnBackClicked"/>
+            <Button Text="+" 
+                    BackgroundColor="Green" 
+                    TextColor="White" 
+                    Clicked="OnAddClicked"/>
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>
