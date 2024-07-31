@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="minhocaaa.TirarLinha"
+             BackgroundColor="#3C3F41">
+    <ContentPage.Content>
+        <Grid Padding="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Título -->
+            <Label Text="Tirar Linha" 
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   FontSize="Large"
+                   TextColor="White"
+                   BackgroundColor="#6A6A6A"
+                   Padding="10"
+                   Grid.Row="0"/>
+
+            <!-- Conteúdo principal -->
+            <Grid Grid.Row="1" ColumnSpacing="20" RowSpacing="20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Label Text="NOME :" 
+                       Grid.Row="0"
+                       Grid.Column="0"
+                       TextColor="White"
+                       VerticalOptions="Center"
+                       HorizontalOptions="End"/>
+
+                <Label Text="QUANTIDADE :" 
+                       Grid.Row="0"
+                       Grid.Column="1"
+                       TextColor="White"
+                       VerticalOptions="Center"
+                       HorizontalOptions="End"/>
+
+                <StackLayout Grid.Row="1" Grid.Column="0">
+                    <Button Text="Maria" x:Name="BtnMaria" Clicked="OnButtonClicked"/>
+                    <Button Text="Ana" x:Name="BtnAna" Clicked="OnButtonClicked"/>
+                    <Button Text="Laura" x:Name="BtnLaura" Clicked="OnButtonClicked"/>
+                    <Button Text="Sofia" x:Name="BtnSofia" Clicked="OnButtonClicked"/>
+                    <Button Text="Carolina" x:Name="BtnCarolina" Clicked="OnButtonClicked"/>
+                </StackLayout>
+
+                <StackLayout Grid.Row="1" Grid.Column="1">
+                    <Label Text="45 Por Hora" TextColor="White" HorizontalOptions="Center"/>
+                    <Label Text="50 Por Hora" TextColor="White" HorizontalOptions="Center"/>
+                    <Label Text="43 Por Hora" TextColor="White" HorizontalOptions="Center"/>
+                    <Label Text="52 Por Hora" TextColor="White" HorizontalOptions="Center"/>
+                    <Label Text="48 Por Hora" TextColor="White" HorizontalOptions="Center"/>
+                </StackLayout>
+            </Grid>
+
+            <!-- Botões inferiores -->
+            <Grid Grid.Row="2" ColumnSpacing="20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Button Text="VOLTAR"
+                        BackgroundColor="Blue"
+                        TextColor="White"
+                        Grid.Column="0"
+                        HorizontalOptions="Center"/>
+
+                <Button Text="="
+                        BackgroundColor="Green"
+                        TextColor="White"
+                        Grid.Column="1"
+                        HorizontalOptions="Center"/>
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

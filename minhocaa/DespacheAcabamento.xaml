@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="minhocaa.DespacheAcabamento"
+             BackgroundColor="#3C3F41">
+    <ContentPage.Content>
+        <Grid Padding="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Título -->
+            <Label Text="Despache Acabamento" 
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   FontSize="Large"
+                   TextColor="White"
+                   BackgroundColor="#6A6A6A"
+                   Padding="10"
+                   Grid.Row="0"/>
+
+            <!-- Conteúdo principal -->
+            <Grid Grid.Row="1" ColumnSpacing="20" RowSpacing="20" VerticalOptions="Center">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Quantidade -->
+                <Label Text="Quantidade :" 
+                       Grid.Row="0"
+                       Grid.Column="0"
+                       TextColor="White"
+                       VerticalOptions="Center"
+                       HorizontalOptions="End"/>
+
+                <Entry x:Name="QuantityEntry" 
+                       Text="1.300pç"
+                       BackgroundColor="White"
+                       TextColor="Black"
+                       Grid.Row="0"
+                       Grid.Column="1"
+                       VerticalOptions="Center"
+                       HorizontalOptions="FillAndExpand"/>
+
+                <Button Text="🗑"
+                        BackgroundColor="Transparent"
+                        TextColor="Red"
+                        FontSize="Large"
+                        HeightRequest="40"
+                        Clicked="OnClearButtonClicked"
+                        CommandParameter="Quantity"
+                        Grid.Row="0"
+                        Grid.Column="2"/>
+
+                <!-- Localização -->
+                <Label Text="Localização :" 
+                       Grid.Row="1"
+                       Grid.Column="0"
+                       TextColor="White"
+                       VerticalOptions="Center"
+                       HorizontalOptions="End"/>
+
+                <Entry x:Name="LocationEntry" 
+                       Text="?"
+                       BackgroundColor="White"
+                       TextColor="Black"
+                       Grid.Row="1"
+                       Grid.Column="1"
+                       VerticalOptions="Center"
+                       HorizontalOptions="FillAndExpand"/>
+
+                <Button Text="🗑"
+                        BackgroundColor="Transparent"
+                        TextColor="Red"
+                        FontSize="Large"
+                        HeightRequest="40"
+                        Clicked="OnClearButtonClicked"
+                        CommandParameter="Location"
+                        Grid.Row="1"
+                        Grid.Column="2"/>
+
+                <!-- Horário -->
+                <Label Text="Horário :" 
+                       Grid.Row="2"
+                       Grid.Column="0"
+                       TextColor="White"
+                       VerticalOptions="Center"
+                       HorizontalOptions="End"/>
+
+                <Entry x:Name="TimeEntry" 
+                       Text="16:00 PM"
+                       BackgroundColor="White"
+                       TextColor="Black"
+                       Grid.Row="2"
+                       Grid.Column="1"
+                       VerticalOptions="Center"
+                       HorizontalOptions="FillAndExpand"/>
+
+                <Button Text="🗑"
+                        BackgroundColor="Transparent"
+                        TextColor="Red"
+                        FontSize="Large"
+                        HeightRequest="40"
+                        Clicked="OnClearButtonClicked"
+                        CommandParameter="Time"
+                        Grid.Row="2"
+                        Grid.Column="2"/>
+            </Grid>
+
+            <!-- Botões inferiores -->
+            <Grid Grid.Row="2" ColumnSpacing="20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Button Text="VOLTAR"
+                        BackgroundColor="Blue"
+                        TextColor="White"
+                        HorizontalOptions="Center"
+                        Clicked="OnBackButtonClicked"
+                        Grid.Column="0"/>
+
+                <Button Text="FAZER AGENDAMENTO"
+                        BackgroundColor="Green"
+                        TextColor="White"
+                        HorizontalOptions="Center"
+                        Clicked="OnScheduleButtonClicked"
+                        Grid.Column="1"/>
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,22 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="minhocaa.FrameDespacheAcabamento">   
+
+    <Grid>
+        <Label Text="Tem certeza que deseja fazer agendamento?"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center" />
+        <Button Text="Não"
+                BackgroundColor="Pink"
+                TextColor="White"
+                Clicked="Button_Nao_Clicked" />
+        <Button Text="Sim"
+                BackgroundColor="Green"
+                TextColor="White"
+                Clicked="Button_Sim_Clicked" />
+        <Button Text="Voltar"
+                BackgroundColor="Blue"
+                TextColor="White"
+                Clicked="Button_Voltar_Clicked" />
+    </Grid>
+</ContentPage>

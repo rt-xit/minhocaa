@@ -1,0 +1,16 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="minhocaa.FrameAcabamento">   
+
+    <Grid>
+        <Label Text="Deseja Calcular em quanto tempo vai ficar pronto?"
+               FontSize="Title"
+               HorizontalTextAlignment="Center" />
+        <Grid GridRows="1" GridColumns="3">
+            <Entry x:Name="EntradaCalculo" GridRow="0" GridColumn="0" Placeholder="Digite o valor" />
+            <Button Text="️" GridRow="0" GridColumn="1" Clicked="Limpar_Clicked" />
+            <Button Text="=" GridRow="0" GridColumn="2" Clicked="Calcular_Clicked" />
+        </Grid>
+        <Button Text="Voltar" BackgroundColor="Blue" TextColor="White" Clicked="Voltar_Clicked" GridRow="1" />
+    </Grid>
+</ContentPage>

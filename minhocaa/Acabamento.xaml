@@ -1,0 +1,24 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/200/xaml"
+             x:Class="minhocaa.Acabamento">
+    <Grid>
+        <Label Text="Acabamento"
+               FontSize="Title"
+               HorizontalTextAlignment="Center" />
+        <Grid GridRows="2" GridColumns="2">
+            <Label Text="Nome" GridRow="0" GridColumn="0" />
+            <Label Text="Quantidade" GridRow="0" GridColumn="1" />
+            <Label Text="João" GridRow="1" GridColumn="0" />
+            <Label Text="35 Por Hora" GridRow="1" GridColumn="1" />
+            <Label Text="Pedro" GridRow="2" GridColumn="0" />
+            <Label Text="40 Por Hora" GridRow="2" GridColumn="1" />
+            <Label Text="André" GridRow="3" GridColumn="0" />
+            <Label Text="38 Por Hora" GridRow="3" GridColumn="1" />
+            <Label Text="Miguel" GridRow="4" GridColumn="0" />
+            <Label Text="40 Por Hora" GridRow="4" GridColumn="1" />
+        </Grid>
+        <Grid GridRow="5" GridColumn="0" ColumnSpan="2">
+            <Button Text="Voltar" BackgroundColor="Blue" TextColor="White" Clicked="Voltar_Clicked" GridColumn="0" />
+            <Button Text="=" GridColumn="1" /> </Grid>
+    </Grid>
+</ContentPage>
