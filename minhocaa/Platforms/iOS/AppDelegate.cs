@@ -1,6 +1,6 @@
 ﻿using Foundation;
 
-namespace monhocaa;
+namespace minhocaa;
 
 [Register("AppDelegate")]
 public class AppDelegate : MauiUIApplicationDelegate

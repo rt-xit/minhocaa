@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace monhocaa;
+namespace minhocaa;
 
 public class Program
 {
