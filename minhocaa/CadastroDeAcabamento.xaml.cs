@@ -1,6 +1,6 @@
-public partial class MainPage : ContentPage
+public partial class CadastroDeAcabamento : ContentPage
 {
-    public MainPage()
+    public CadastroDeAcabamento()
     {
         InitializeComponent();
     }

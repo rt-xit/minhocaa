@@ -3,9 +3,9 @@ using Microsoft.Maui.Controls;
 
 namespace minhocaa
 {
-    public partial class BordadoPage : ContentPage
+    public partial class Bordado : ContentPage
     {
-        public BordadoPage()
+        public Bordado()
         {
             InitializeComponent();
         }

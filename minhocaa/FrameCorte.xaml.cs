@@ -3,9 +3,9 @@ using Microsoft.Maui.Controls;
 
 namespace minhocaa
 {
-    public partial class CalcularTempoPage : ContentPage
+    public partial class FrameCorte : ContentPage
     {
-        public CalcularTempoPage()
+        public FrameCorte()
         {
             InitializeComponent();
         }

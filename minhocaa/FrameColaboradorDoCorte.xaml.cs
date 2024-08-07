@@ -10,7 +10,7 @@ namespace minhocaa
             InitializeComponent();
         }
 
-        private void FrameColaboradorDoCorte(object sender, EventArgs e)
+        private void Roberto(object sender, EventArgs e)
         {
             // Lógica para adicionar o novo colaborador
             string nomeColaborador = NomeColaboradorEntry.Text;

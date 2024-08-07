@@ -1,6 +1,6 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="minhocaa.FrameBordado"   
+             x:Class="minhocaa.FrameBordado"
 
              Title="Calcular Tempo">
     <Grid>
@@ -13,7 +13,7 @@
               Margin="20">
             <Entry x:Name="EntradaTexto"
                    Placeholder="Digite aqui..." />
-            <Button Text="️"
+            <Button Text=""
                     Clicked="LimparEntrada" />
             <Button Text="="
                     Clicked="Calcular" />

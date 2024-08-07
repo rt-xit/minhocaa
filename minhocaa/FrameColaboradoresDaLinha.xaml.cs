@@ -3,14 +3,14 @@ using Microsoft.Maui.Controls;
 
 namespace minhocaa
 {
-    public partial class ColaboradoresPage : ContentPage
+    public partial class FrameColaboradoresDaLinha : ContentPage
     {
-        public ObservableCollection<string> ListaColaboradores { get; set; }
+       // public ObservableCollection<string> ListaColaboradores { get; set; }
 
-        public ColaboradoresPage()
+        public FrameColaboradoresDaLinha()
         {
             InitializeComponent();
-            ListaColaboradores = new ObservableCollection<string>
+            //ListaColaboradores = new ObservableCollection<string>
         }
     }
 }

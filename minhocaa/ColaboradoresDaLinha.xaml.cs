@@ -1,16 +1,14 @@
 using System.Collections.ObjectModel;
 using Microsoft.Maui.Controls;
 
-namespace minhocaa
-{
-    public partial class ColaboradoresPage : ContentPage
-    {
-        public ObservableCollection<string> ListaColaboradores { get; set; }
+namespace minhocaa;
 
-        public ColaboradoresPage()
+    public partial class ColaboradoresDaLinha : ContentPage
+    {
+        //public ObservableCollection<string> ListaColaboradores 
+
+        public ColaboradoresDaLinha()
         {
             InitializeComponent();
-            ListaColaboradores = new ObservableCollection<string>
         }
     }
-}

@@ -1,6 +1,6 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="minhocaa.FrameColaboradorDoCorte"   
+             x:Class="minhocaa.FrameColaboradorDoCorte" 
 
              Title="FrameColaboradorDoCorte">
     <Grid>
@@ -13,7 +13,7 @@
                Margin="20" />
         <Grid RowDefinitions="1*"
               ColumnDefinitions="*,Auto,*">
-            <Button Text="️"
+            <Button Text=""
                     Grid.Column="1"
                     Clicked="ExcluirColaborador" />
             <Button Text="+"

@@ -2,9 +2,9 @@ using Microsoft.Maui.Controls;
 
 namespace minhocaa
 {
-    public partial class MainPage : ContentPage
+    public partial class TirarLinha : ContentPage
     {
-        public MainPage()
+        public TirarLinha()
         {
             InitializeComponent();
         }

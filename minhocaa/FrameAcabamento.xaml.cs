@@ -1,6 +1,6 @@
-public partial class MainPage : ContentPage
+public partial class FrameAcabamento : ContentPage
 {
-    public MainPage()
+    public FrameAcabamento()
     {
         InitializeComponent();
     }

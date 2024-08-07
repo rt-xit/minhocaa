@@ -3,9 +3,9 @@ using Microsoft.Maui.Controls;
 
 namespace minhocaa
 {
-    public partial class CortePage : ContentPage
+    public partial class Corte : ContentPage
     {
-        public CortePage()
+        public Corte()
         {
             InitializeComponent();
         }

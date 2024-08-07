@@ -3,14 +3,14 @@ using Microsoft.Maui.Controls;
 
 namespace minhocaa
 {
-    public partial class CalcularTempoPage : ContentPage
+    public partial class CalcularTempo : ContentPage
     {
-        public CalcularTempoPage()
+        public CalcularTempo()
         {
             InitializeComponent();
         }
 
-        private void LimparEntrada(object sender, EventArgs e)
+        private vIe [[go erg pogr[qreg ero]´rgk]´k apo ga q34iyt-otoid LimparEntrada(object sender, EventArgs e)
         {
             EntradaTexto.Text = string.Empty;
         }
