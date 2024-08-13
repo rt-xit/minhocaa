@@ -1,32 +1,37 @@
-public partial class FrameCadastroDeAcabamento : ContentPage
+using Microsoft.Maui.Controls;
+
+namespace minhocaa
 {
-    public FrameCadastroDeAcabamento()
+    public partial class FrameCadastroDeAcabamento : ContentPage
     {
-        InitializeComponent();
-    }
-
-    private void RemoverCaractere_Clicked(object sender, EventArgs e)
-    {
-        // Remove o último caractere do Entry
-        if (NomeColaborador.Text.Length > 0)
+        public FrameCadastroDeAcabamento()
         {
-            NomeColaborador.Text = NomeColaborador.Text.Substring(0, NomeColaborador.Text.Length - 1);
+            InitializeComponent();
         }
-    }
 
-    private void AdicionarColaborador_Clicked(object sender, EventArgs e)
-    {
-        // Lógica para adicionar o colaborador (implemente aqui)
-        string nome = NomeColaborador.Text;
-        // ... faça algo com o nome do colaborador, como adicionar a uma lista
-        DisplayAlert("Sucesso", $"Colaborador {nome} adicionado!", "OK");
-        NomeColaborador.Text = string.Empty; // Limpa o campo após adicionar
-    }
+        private void RemoverCaractere_Clicked(object sender, EventArgs e)
+        {
+            // Remove o último caractere do Entry
+            if (NomeColaborador.Text.Length > 0)
+            {
+                NomeColaborador.Text = NomeColaborador.Text.Substring(0, NomeColaborador.Text.Length - 1);
+            }
+        }
 
-    private void Voltar_Clicked(object sender, EventArgs e)
-    {
-        // Lógica para quando o botão "Voltar" é clicado
-        // Por exemplo, navegar para outra página
-        Navigation.PopAsync();
+        private void AdicionarColaborador_Clicked(object sender, EventArgs e)
+        {
+            // Lógica para adicionar o colaborador (implemente aqui)
+            string nome = NomeColaborador.Text;
+            // ... faça algo com o nome do colaborador, como adicionar a uma lista
+            DisplayAlert("Sucesso", $"Colaborador {nome} adicionado!", "OK");
+            NomeColaborador.Text = string.Empty; // Limpa o campo após adicionar
+        }
+
+        private void Voltar_Clicked(object sender, EventArgs e)
+        {
+            // Lógica para quando o botão "Voltar" é clicado
+            // Por exemplo, navegar para outra página
+            Navigation.PopAsync();
+        }
     }
 }

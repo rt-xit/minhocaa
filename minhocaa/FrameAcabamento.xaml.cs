@@ -1,35 +1,31 @@
-public partial class FrameAcabamento : ContentPage
+
+using Microsoft.Maui.Controls;
+
+namespace minhocaa
 {
-    public FrameAcabamento()
+    public partial class FrameAcabamento : ContentPage
     {
-        InitializeComponent();
-    }
-
-    private void Limpar_Clicked(object sender, EventArgs e)
-    {
-        // Limpa o campo de entrada
-        EntradaCalculo.Text = string.Empty;
-    }
-
-    private void Calcular_Clicked(object sender, EventArgs e)
-    {
-        // Lógica para realizar o cálculo
-        if (double.TryParse(EntradaCalculo.Text, out double valor))
+        public FrameAcabamento()
         {
-            // Realize o cálculo aqui, por exemplo:
-            double resultado = valor * 2; // Substitua por sua lógica de cálculo
-            DisplayAlert("Resultado", $"O resultado é: {resultado}", "OK");
+            InitializeComponent();
         }
-        else
-        {
-            DisplayAlert("Erro", "Digite um valor válido.", "OK");
-        }
-    }
 
-    private void Voltar_Clicked(object sender, EventArgs e)
-    {
-        // Lógica para quando o botão "Voltar" é clicado
-        // Por exemplo, navegar para outra página
-        Navigation.PopAsync();
+        private void OnDeleteButtonClicked(object sender, EventArgs e)
+        {
+            // Clear the text in the Entry field
+            inputEntry.Text = string.Empty;
+        }
+
+        private void OnCalculateButtonClicked(object sender, EventArgs e)
+        {
+            // Add your logic here for what happens when the "=" button is clicked
+            DisplayAlert("Calculation", "Calculation logic goes here.", "OK");
+        }
+
+        private void OnBackButtonClicked(object sender, EventArgs e)
+        {
+            // Logic to navigate back or close the page
+            Navigation.PopAsync();
+        }
     }
 }

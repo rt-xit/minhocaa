@@ -3,24 +3,17 @@ using Microsoft.Maui.Controls;
 
 namespace minhocaa
 {
-    public partial class ColaboradoresPage : ContentPage
+    public partial class CosturaPage : ContentPage
     {
-        public ObservableCollection<string> ListaColaboradores { get; set; }
-
-        public ColaboradoresPage()
+        public CosturaPage()
         {
             InitializeComponent();
-            ListaColaboradores = new ObservableCollection<string>
-            {
-                "Ana", "Renato", "Sofia", "Juliana", "Laura", "Larissa"
-            };
-            BindingContext = this;
+           
         }
 
         private void CadastroButtonClicked(object sender, EventArgs e)
         {
-            // Navegar para a página de cadastro
-            Navigation.PushAsync(new CadastroColaboradorPage());
+      
         }
 
         private void ExcluirColaborador(object sender, EventArgs e)

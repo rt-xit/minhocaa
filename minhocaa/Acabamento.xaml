@@ -1,24 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/200/xaml"
-             x:Class="minhocaa.Acabamento">
-    <Grid>
-        <Label Text="Acabamento"
-               FontSize="Title"
-               HorizontalTextAlignment="Center" />
-        <Grid GridRows="2" GridColumns="2">
-            <Label Text="Nome" GridRow="0" GridColumn="0" />
-            <Label Text="Quantidade" GridRow="0" GridColumn="1" />
-            <Label Text="João" GridRow="1" GridColumn="0" />
-            <Label Text="35 Por Hora" GridRow="1" GridColumn="1" />
-            <Label Text="Pedro" GridRow="2" GridColumn="0" />
-            <Label Text="40 Por Hora" GridRow="2" GridColumn="1" />
-            <Label Text="André" GridRow="3" GridColumn="0" />
-            <Label Text="38 Por Hora" GridRow="3" GridColumn="1" />
-            <Label Text="Miguel" GridRow="4" GridColumn="0" />
-            <Label Text="40 Por Hora" GridRow="4" GridColumn="1" />
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="minhocaa.AcabamentoPage"
+             BackgroundColor="#3A3A3A">
+    <ContentPage.Content>
+        <Grid Padding="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            
+            <!-- Header -->
+            <Label Text="Acabamento" 
+                   FontSize="Large" 
+                   TextColor="Black"
+                   BackgroundColor="#8F8F8F"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   Padding="10"
+                   Grid.Row="0"/>
+            
+            <!-- Main Content -->
+            <StackLayout Grid.Row="1"
+                         Spacing="20"
+                         VerticalOptions="CenterAndExpand"
+                         HorizontalOptions="CenterAndExpand">
+                <Grid ColumnSpacing="20">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    
+                    <!-- Name Section -->
+                    <StackLayout Grid.Column="0"
+                                 Spacing="10">
+                        <Label Text="NOME :"
+                               TextColor="White"
+                               FontAttributes="Bold"/>
+                        <Button Text="João" BackgroundColor="#909090" TextColor="White"/>
+                        <Button Text="Pedro" BackgroundColor="#909090" TextColor="White"/>
+                        <Button Text="André" BackgroundColor="#909090" TextColor="White"/>
+                        <Button Text="Miguel" BackgroundColor="#909090" TextColor="White"/>
+                    </StackLayout>
+                    
+                    <!-- Quantity Section -->
+                    <StackLayout Grid.Column="1"
+                                 Spacing="10">
+                        <Label Text="QUANTIDADE :"
+                               TextColor="White"
+                               FontAttributes="Bold"/>
+                        <Button Text="35 Por Hora" BackgroundColor="#909090" TextColor="White"/>
+                        <Button Text="40 Por Hora" BackgroundColor="#909090" TextColor="White"/>
+                        <Button Text="38 Por Hora" BackgroundColor="#909090" TextColor="White"/>
+                        <Button Text="40 Por Hora" BackgroundColor="#909090" TextColor="White"/>
+                    </StackLayout>
+                </Grid>
+            </StackLayout>
+            
+            <!-- Footer Buttons -->
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="Center"
+                         Spacing="20"
+                         Grid.Row="2">
+                <Button Text="VOLTAR"
+                        BackgroundColor="#5C84F1"
+                        TextColor="White"/>
+                <Button Text="="
+                        BackgroundColor="#00CC00"
+                        TextColor="White"/>
+            </StackLayout>
         </Grid>
-        <Grid GridRow="5" GridColumn="0" ColumnSpan="2">
-            <Button Text="Voltar" BackgroundColor="Blue" TextColor="White" Clicked="Voltar_Clicked" GridColumn="0" />
-            <Button Text="=" GridColumn="1" /> </Grid>
-    </Grid>
+    </ContentPage.Content>
 </ContentPage>

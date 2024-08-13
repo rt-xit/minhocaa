@@ -2,9 +2,9 @@ using Microsoft.Maui.Controls;
 
 namespace minhocaa
 {
-    public partial class MainPage : ContentPage
+    public partial class FrameDespacheDeTecido : ContentPage
     {
-        public MainPage()
+        public FrameDespacheDeTecido()
         {
             InitializeComponent();
         }

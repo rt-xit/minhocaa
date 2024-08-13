@@ -3,9 +3,9 @@ using Microsoft.Maui.Controls;
 
 namespace minhocaa
 {
-    public partial class AdicionarColaboradorPage : ContentPage
+    public partial class FrameCostura : ContentPage
     {
-        public AdicionarColaboradorPage()
+        public FrameCostura()
         {
             InitializeComponent();
         }

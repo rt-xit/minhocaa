@@ -1,16 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="minhocaa.FrameAcabamento"> 
+             xmlns:local="clr-minhocaa:minhocaa"
+             x:Class="minhocaa.FrameAcabamento"
+             BackgroundColor="#3A3A3A">
+    <ContentPage.Content>
+        <Grid Padding="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
 
-    <Grid>
-        <Label Text="Deseja Calcular em quanto tempo vai ficar pronto?"
-               FontSize="Title"
-               HorizontalTextAlignment="Center" />
-        <Grid GridRows="1" GridColumns="3">
-            <Entry x:Name="EntradaCalculo" GridRow="0" GridColumn="0" Placeholder="Digite o valor" />
-            <Button Text="" GridRow="0" GridColumn="1" Clicked="Limpar_Clicked" />
-            <Button Text="=" GridRow="0" GridColumn="2" Clicked="Calcular_Clicked" />
+            <!-- Header Label -->
+            <Label Text="Deseja Calcular em quanto tempo vai ficar pronto?" 
+                   FontSize="Medium" 
+                   TextColor="White"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   Padding="10"
+                   Grid.Row="0"/>
+
+            <!-- Main Content -->
+            <StackLayout Grid.Row="1"
+                         Spacing="20"
+                         VerticalOptions="CenterAndExpand"
+                         HorizontalOptions="CenterAndExpand">
+                <Grid ColumnSpacing="10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Entry with Delete Button -->
+                    <Frame CornerRadius="10"
+                           BackgroundColor="White"
+                           Padding="0"
+                           VerticalOptions="Center"
+                           Grid.Column="0">
+                        <Grid>
+                            <Entry x:Name="inputEntry"
+                                   Placeholder="Enter value"
+                                   HorizontalOptions="FillAndExpand"
+                                   Margin="5,0"/>
+                            <Button Text="🗑️"
+                                    BackgroundColor="Transparent"
+                                    TextColor="Red"
+                                    HorizontalOptions="End"
+                                    VerticalOptions="Center"
+                                    Clicked="OnDeleteButtonClicked"/>
+                        </Grid>
+                    </Frame>
+
+                    <!-- Calculate Button -->
+                    <Button Text="="
+                            BackgroundColor="#00CC00"
+                            TextColor="White"
+                            WidthRequest="50"
+                            Grid.Column="1"
+                            VerticalOptions="Center"
+                            Clicked="OnCalculateButtonClicked"/>
+                </Grid>
+            </StackLayout>
+
+            <!-- Footer Button -->
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="Center"
+                         Grid.Row="2">
+                <Button Text="VOLTAR"
+                        BackgroundColor="#5C84F1"
+                        TextColor="White"
+                        Clicked="OnBackButtonClicked"/>
+            </StackLayout>
         </Grid>
-        <Button Text="Voltar" BackgroundColor="Blue" TextColor="White" Clicked="Voltar_Clicked" GridRow="1" />
-    </Grid>
+    </ContentPage.Content>
 </ContentPage>

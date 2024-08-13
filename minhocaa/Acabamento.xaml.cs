@@ -1,14 +1,20 @@
-public partial class Acabamento : ContentPage
-{
-    public Acabamento()
-    {
-        InitializeComponent();
-    }
+using System;
+using Microsoft.Maui.Controls;
 
-    private void Voltar_Clicked(object sender, EventArgs e)
+namespace minhocaa
+{
+    public partial class AcabamentoPage : ContentPage
     {
-        // Lógica para quando o botão "Voltar" é clicado
-        // Por exemplo, navegar para outra página
-        Navigation.PopAsync();
+        public AcabamentoPage()
+        {
+            InitializeComponent();
+        }
+
+        private void Voltar_Clicked(object sender, EventArgs e)
+        {
+            // Lógica para quando o botão "Voltar" é clicado
+            // Por exemplo, navegar para outra página
+            Navigation.PopAsync();
+        }
     }
 }
