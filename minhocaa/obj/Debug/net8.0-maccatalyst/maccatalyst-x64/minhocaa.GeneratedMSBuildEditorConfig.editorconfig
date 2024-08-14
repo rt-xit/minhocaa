@@ -12,167 +12,167 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = minhocaa
-build_property.ProjectDir = C:\Users\Aluno\minhocaa\minhocaa\
+build_property.ProjectDir = C:\Users\Aluno\minhocaa-1\minhocaa\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/Aluno/minhocaa/minhocaa/Acabamento.xaml]
+[C:/Users/Aluno/minhocaa-1/minhocaa/Acabamento.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = minhocaa.Acabamento.xaml
 build_metadata.AdditionalFiles.TargetPath = Acabamento.xaml
 build_metadata.AdditionalFiles.RelativePath = Acabamento.xaml
 
-[C:/Users/Aluno/minhocaa/minhocaa/App.xaml]
+[C:/Users/Aluno/minhocaa-1/minhocaa/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = minhocaa.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/Aluno/minhocaa/minhocaa/AppShell.xaml]
+[C:/Users/Aluno/minhocaa-1/minhocaa/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = minhocaa.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/Aluno/minhocaa/minhocaa/Bordado.xaml]
+[C:/Users/Aluno/minhocaa-1/minhocaa/Bordado.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = minhocaa.Bordado.xaml
 build_metadata.AdditionalFiles.TargetPath = Bordado.xaml
 build_metadata.AdditionalFiles.RelativePath = Bordado.xaml
 
-[C:/Users/Aluno/minhocaa/minhocaa/CadastroCliente.xaml]
+[C:/Users/Aluno/minhocaa-1/minhocaa/CadastroCliente.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = minhocaa.CadastroCliente.xaml
 build_metadata.AdditionalFiles.TargetPath = CadastroCliente.xaml
 build_metadata.AdditionalFiles.RelativePath = CadastroCliente.xaml
 
-[C:/Users/Aluno/minhocaa/minhocaa/CadastroDeAcabamento.xaml]
+[C:/Users/Aluno/minhocaa-1/minhocaa/CadastroDeAcabamento.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = minhocaa.CadastroDeAcabamento.xaml
 build_metadata.AdditionalFiles.TargetPath = CadastroDeAcabamento.xaml
 build_metadata.AdditionalFiles.RelativePath = CadastroDeAcabamento.xaml
 
-[C:/Users/Aluno/minhocaa/minhocaa/ColaboradoresDaLinha.xaml]
+[C:/Users/Aluno/minhocaa-1/minhocaa/ColaboradoresDaLinha.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = minhocaa.ColaboradoresDaLinha.xaml
 build_metadata.AdditionalFiles.TargetPath = ColaboradoresDaLinha.xaml
 build_metadata.AdditionalFiles.RelativePath = ColaboradoresDaLinha.xaml
 
-[C:/Users/Aluno/minhocaa/minhocaa/ColaboradoresDoCorte.xaml]
+[C:/Users/Aluno/minhocaa-1/minhocaa/ColaboradoresDoCorte.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = minhocaa.ColaboradoresDoCorte.xaml
 build_metadata.AdditionalFiles.TargetPath = ColaboradoresDoCorte.xaml
 build_metadata.AdditionalFiles.RelativePath = ColaboradoresDoCorte.xaml
 
-[C:/Users/Aluno/minhocaa/minhocaa/Corte.xaml]
+[C:/Users/Aluno/minhocaa-1/minhocaa/Corte.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = minhocaa.Corte.xaml
 build_metadata.AdditionalFiles.TargetPath = Corte.xaml
 build_metadata.AdditionalFiles.RelativePath = Corte.xaml
 
-[C:/Users/Aluno/minhocaa/minhocaa/Costura.xaml]
+[C:/Users/Aluno/minhocaa-1/minhocaa/Costura.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = minhocaa.Costura.xaml
 build_metadata.AdditionalFiles.TargetPath = Costura.xaml
 build_metadata.AdditionalFiles.RelativePath = Costura.xaml
 
-[C:/Users/Aluno/minhocaa/minhocaa/DespacheAcabamento.xaml]
+[C:/Users/Aluno/minhocaa-1/minhocaa/DespacheAcabamento.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = minhocaa.DespacheAcabamento.xaml
 build_metadata.AdditionalFiles.TargetPath = DespacheAcabamento.xaml
 build_metadata.AdditionalFiles.RelativePath = DespacheAcabamento.xaml
 
-[C:/Users/Aluno/minhocaa/minhocaa/FrameAcabamento.xaml]
+[C:/Users/Aluno/minhocaa-1/minhocaa/FrameAcabamento.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = minhocaa.FrameAcabamento.xaml
 build_metadata.AdditionalFiles.TargetPath = FrameAcabamento.xaml
 build_metadata.AdditionalFiles.RelativePath = FrameAcabamento.xaml
 
-[C:/Users/Aluno/minhocaa/minhocaa/FrameBordado.xaml]
+[C:/Users/Aluno/minhocaa-1/minhocaa/FrameBordado.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = minhocaa.FrameBordado.xaml
 build_metadata.AdditionalFiles.TargetPath = FrameBordado.xaml
 build_metadata.AdditionalFiles.RelativePath = FrameBordado.xaml
 
-[C:/Users/Aluno/minhocaa/minhocaa/FrameCadastroDeAcabamento.xaml]
+[C:/Users/Aluno/minhocaa-1/minhocaa/FrameCadastroDeAcabamento.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = minhocaa.FrameCadastroDeAcabamento.xaml
 build_metadata.AdditionalFiles.TargetPath = FrameCadastroDeAcabamento.xaml
 build_metadata.AdditionalFiles.RelativePath = FrameCadastroDeAcabamento.xaml
 
-[C:/Users/Aluno/minhocaa/minhocaa/FrameCliente.xaml]
+[C:/Users/Aluno/minhocaa-1/minhocaa/FrameCliente.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = minhocaa.FrameCliente.xaml
 build_metadata.AdditionalFiles.TargetPath = FrameCliente.xaml
 build_metadata.AdditionalFiles.RelativePath = FrameCliente.xaml
 
-[C:/Users/Aluno/minhocaa/minhocaa/FrameColaboradoresDaLinha.xaml]
+[C:/Users/Aluno/minhocaa-1/minhocaa/FrameColaboradoresDaLinha.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = minhocaa.FrameColaboradoresDaLinha.xaml
 build_metadata.AdditionalFiles.TargetPath = FrameColaboradoresDaLinha.xaml
 build_metadata.AdditionalFiles.RelativePath = FrameColaboradoresDaLinha.xaml
 
-[C:/Users/Aluno/minhocaa/minhocaa/FrameCololaboradoresDoCorte.xaml]
+[C:/Users/Aluno/minhocaa-1/minhocaa/FrameCololaboradoresDoCorte.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = minhocaa.FrameCololaboradoresDoCorte.xaml
 build_metadata.AdditionalFiles.TargetPath = FrameCololaboradoresDoCorte.xaml
 build_metadata.AdditionalFiles.RelativePath = FrameCololaboradoresDoCorte.xaml
 
-[C:/Users/Aluno/minhocaa/minhocaa/FrameCompraDeTecido.xaml]
+[C:/Users/Aluno/minhocaa-1/minhocaa/FrameCompraDeTecido.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = minhocaa.FrameCompraDeTecido.xaml
 build_metadata.AdditionalFiles.TargetPath = FrameCompraDeTecido.xaml
 build_metadata.AdditionalFiles.RelativePath = FrameCompraDeTecido.xaml
 
-[C:/Users/Aluno/minhocaa/minhocaa/FrameCorte.xaml]
+[C:/Users/Aluno/minhocaa-1/minhocaa/FrameCorte.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = minhocaa.FrameCorte.xaml
 build_metadata.AdditionalFiles.TargetPath = FrameCorte.xaml
 build_metadata.AdditionalFiles.RelativePath = FrameCorte.xaml
 
-[C:/Users/Aluno/minhocaa/minhocaa/FrameCostura.xaml]
+[C:/Users/Aluno/minhocaa-1/minhocaa/FrameCostura.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = minhocaa.FrameCostura.xaml
 build_metadata.AdditionalFiles.TargetPath = FrameCostura.xaml
 build_metadata.AdditionalFiles.RelativePath = FrameCostura.xaml
 
-[C:/Users/Aluno/minhocaa/minhocaa/FrameDespacheAcabamento.xaml]
+[C:/Users/Aluno/minhocaa-1/minhocaa/FrameDespacheAcabamento.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = minhocaa.FrameDespacheAcabamento.xaml
 build_metadata.AdditionalFiles.TargetPath = FrameDespacheAcabamento.xaml
 build_metadata.AdditionalFiles.RelativePath = FrameDespacheAcabamento.xaml
 
-[C:/Users/Aluno/minhocaa/minhocaa/FrameDespacheDeTecido.xaml]
+[C:/Users/Aluno/minhocaa-1/minhocaa/FrameDespacheDeTecido.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = minhocaa.FrameDespacheDeTecido.xaml
 build_metadata.AdditionalFiles.TargetPath = FrameDespacheDeTecido.xaml
 build_metadata.AdditionalFiles.RelativePath = FrameDespacheDeTecido.xaml
 
-[C:/Users/Aluno/minhocaa/minhocaa/FrameTirarLinha.xaml]
+[C:/Users/Aluno/minhocaa-1/minhocaa/FrameTirarLinha.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = minhocaa.FrameTirarLinha.xaml
 build_metadata.AdditionalFiles.TargetPath = FrameTirarLinha.xaml
 build_metadata.AdditionalFiles.RelativePath = FrameTirarLinha.xaml
 
-[C:/Users/Aluno/minhocaa/minhocaa/MainPage.xaml]
+[C:/Users/Aluno/minhocaa-1/minhocaa/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = minhocaa.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/Aluno/minhocaa/minhocaa/Resources/Styles/Colors.xaml]
+[C:/Users/Aluno/minhocaa-1/minhocaa/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = minhocaa.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/Aluno/minhocaa/minhocaa/Resources/Styles/Styles.xaml]
+[C:/Users/Aluno/minhocaa-1/minhocaa/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = minhocaa.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/Aluno/minhocaa/minhocaa/TirarLinha.xaml]
+[C:/Users/Aluno/minhocaa-1/minhocaa/TirarLinha.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = minhocaa.TirarLinha.xaml
 build_metadata.AdditionalFiles.TargetPath = TirarLinha.xaml

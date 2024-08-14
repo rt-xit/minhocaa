@@ -6,20 +6,25 @@
         <Button Text="Cadastro"
                 HorizontalOptions="Center"
                 Clicked="CadastroButtonClicked" />
+
         <ListView x:Name="ListaColaboradores"
                   ItemsSource="{Binding ListaColaboradores}"
                   ItemTemplate="{StaticResource ColaboradorTemplate}"
                   Margin="20">
+
         </ListView>
+
         <Grid RowDefinitions="Auto"
               ColumnDefinitions="*,Auto"
               Margin="20">
+
             <Button Text="Voltar"
                     Grid.Column="0"
                     Clicked="Voltar" />
+
             <Button Text="+"
                     Grid.Column="1"
-                    Clicked="CadastroButtonClicked" />
+                    Clicked="SalvarButtonClicked" />
         </Grid>
     </Grid>
 </ContentPage>

@@ -24,5 +24,19 @@ namespace minhocaa
             // Lógica para voltar para a página anterior
             Navigation.PopAsync();
         }
+        void LimparEntrada (object sender, EventArgs e)
+        {
+
+        }
+
+        void Calcular(object sender, EventArgs e)
+        {
+            
+        }
+
+        void Voltar(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

@@ -1,39 +1,135 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="minhocaa.Bordado" 
+             x:Class="minhocaa.Bordado"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="#3b3b3b"
+             Padding="20">
 
-             Title="Bordado">
-    <Grid>
+    <StackLayout Spacing="10" VerticalOptions="Start">
+
         <Label Text="Bordado"
-               FontSize="18"
-               HorizontalTextAlignment="Center"
-               VerticalTextAlignment="Center" />
-        <Grid RowDefinitions="Auto, *"
-              ColumnDefinitions="*, *"
-              Margin="20">
-            <Label Text="NOME:"
-                   Grid.Row="0"
-                   Grid.Column="0" />
-            <Label Text="QUANTIDADE:"
-                   Grid.Row="0"
-                   Grid.Column="1" />
-            <Button Text="Pedro"
-                    Grid.Row="1"
-                    Grid.Column="0"
-                    Clicked="NomeButtonClicked" />
-            <Label Text="60 Por Hora"
-                   Grid.Row="1"
-                   Grid.Column="1" />
-            </Grid>
-        <Grid RowDefinitions="Auto"
-              ColumnDefinitions="*,Auto"
-              Margin="20">
-            <Button Text="Voltar"
-                    Grid.Column="0"
-                    Clicked="Voltar" />
-            <Button Text="="
-                    Grid.Column="1"
-                    Clicked="Calcular" />
+               BackgroundColor="#b0b0b0"
+               TextColor="Black"
+               FontSize="Large"
+               HorizontalOptions="FillAndExpand"
+               VerticalOptions="Start"
+               Padding="10"
+               HorizontalTextAlignment="Center"/>
+             
+
+        <Grid ColumnSpacing="10" RowSpacing="10" Padding="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="2*" />
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Label Text="NOME :" 
+                   TextColor="White"
+                   FontSize="Medium"
+                   Grid.Column="0"
+                   Grid.Row="0" 
+                   VerticalOptions="Center"/>
+
+            <Label Text="QUANTIDADE :" 
+                   TextColor="White"
+                   FontSize="20"
+                   Grid.Column="1"
+                   Grid.Row="0" 
+                   VerticalOptions="Center" />
+
+            <Entry Placeholder="Pedro" 
+                    BackgroundColor="#b0b0b0" 
+                    TextColor="Black"
+                    Keyboard="Numeric"
+                    Grid.Column="0" 
+                    Grid.Row="1" 
+                    HeightRequest="40"/>
+
+           <Entry Placeholder="60 Por Hora" 
+                    BackgroundColor="#b0b0b0"
+                    Keyboard="Numeric"
+                    TextColor="Black"
+                    Grid.Column="1" 
+                    Grid.Row="1" 
+                    HeightRequest="40" />
+
+            <Entry Placeholder="João" 
+                    BackgroundColor="#b0b0b0" 
+                    TextColor="Black"
+                    Keyboard="Numeric"
+                    Grid.Column="0" 
+                    Grid.Row="2" 
+                    HeightRequest="40"/>
+
+            <Entry Placeholder="50 Por Hora" 
+                    BackgroundColor="#b0b0b0" 
+                    Keyboard="Numeric"
+                    TextColor="Black"
+                    Grid.Column="1" 
+                    Grid.Row="2" 
+                    HeightRequest="40"/>
+
+           <Entry Placeholder="Carlos" 
+                    BackgroundColor="#b0b0b0"  
+                    Keyboard="Numeric"
+                    TextColor="Black"
+                    Grid.Column="0" 
+                    Grid.Row="3" 
+                    HeightRequest="40"/>
+
+           <Entry Placeholder="55 Por Hora" 
+                    BackgroundColor="#b0b0b0"  
+                    Keyboard="Numeric"
+                    TextColor="Black"
+                    Grid.Column="1" 
+                    Grid.Row="3" 
+                    HeightRequest="40"/>
+
+           <Entry Placeholder="Miguel" 
+                    BackgroundColor="#b0b0b0"  
+                    Keyboard="Numeric"
+                    TextColor="Black"
+                    Grid.Column="0" 
+                    Grid.Row="4" 
+                    HeightRequest="40"/>
+
+      <Entry Placeholder="63 Por Hora" 
+                    BackgroundColor="#b0b0b0" 
+                    TextColor="Black"
+                    Keyboard="Numeric"
+                    Grid.Column="1" 
+                    Grid.Row="4" 
+                    HeightRequest="40"/>
         </Grid>
-    </Grid>
+
+        <Grid ColumnSpacing="10" Padding="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Button Text="VOLTAR" 
+                    BackgroundColor="#4267B2" 
+                    TextColor="White"
+                    CornerRadius="5"
+                    Grid.Column="0" 
+                    HeightRequest="50"
+                    FontAttributes="Bold"/>
+
+            <Button Text="=" 
+                    BackgroundColor="Green" 
+                    TextColor="White"
+                    CornerRadius="5"
+                    Grid.Column="1"
+                    HeightRequest="50"
+                    FontAttributes="Bold"/>
+        </Grid>
+    </StackLayout>
 </ContentPage>

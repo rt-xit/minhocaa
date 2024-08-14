@@ -12,5 +12,20 @@ namespace minhocaa
             InitializeComponent();
             //ListaColaboradores = new ObservableCollection<string>
         }
+
+        void Voltar(object sender, EventArgs e)
+        {
+            
+        }
+
+        void CadastroButtonClicked(object sender, EventArgs e)
+        {
+
+        }
+
+        void SalvarButtonClicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }

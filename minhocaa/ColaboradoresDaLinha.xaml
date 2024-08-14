@@ -1,25 +1,97 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="minhocaa.ColaboradoresDaLinha"
-             Title="Colaboradores de linha">
-    <Grid>
-        <Button Text="Cadastro"
-                HorizontalOptions="Center"
-                Clicked="CadastroButtonClicked" />
-        <ListView x:Name="ListaColaboradores"
-                  ItemsSource="{Binding ListaColaboradores}"
-                  ItemTemplate="{StaticResource ColaboradorTemplate}"
-                  Margin="20">
-        </ListView>
-        <Grid RowDefinitions="Auto"
-              ColumnDefinitions="*,Auto"
-              Margin="20">
-            <Button Text="Voltar"
+             BackgroundColor="#3b3b3b"
+             Padding="20">
+
+    <StackLayout Spacing="10" VerticalOptions="Center">
+
+        <Label Text="Colaboradores de linha"
+               BackgroundColor="#b0b0b0"
+               TextColor="Black"
+               FontSize="Large"
+               HorizontalOptions="FillAndExpand"
+               VerticalOptions="CenterAndExpand"
+               Padding="10"
+               HorizontalTextAlignment="Center"/>
+
+        <Label Text="Cadastro"
+               BackgroundColor="#b0b0b0"
+               TextColor="Black"
+               FontSize="Medium"
+               HorizontalOptions="FillAndExpand"
+               VerticalOptions="CenterAndExpand"
+               Padding="10"
+               HorizontalTextAlignment="Center"/>
+
+        <Grid ColumnSpacing="10" RowSpacing="10" Padding="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+             <Entry Placeholder="Maria"
+                    BackgroundColor="#b0b0b0"
+                    TextColor="Black"
                     Grid.Column="0"
-                    Clicked="Voltar" />
-            <Button Text="+"
+                    Grid.Row="0"
+                    HeightRequest="40"/>
+
+             <Entry Placeholder="Ana"
+                    BackgroundColor="#b0b0b0"
+                    TextColor="Black"
                     Grid.Column="1"
-                    Clicked="CadastroButtonClicked" />
+                    Grid.Row="0"
+                    HeightRequest="40"/>
+
+             <Entry Placeholder="Joana"
+                    BackgroundColor="#b0b0b0"
+                    TextColor="Black"
+                    Grid.Column="0"
+                    Grid.Row="1"
+                    HeightRequest="40"/>
+
+             <Entry Placeholder="Sofia"
+                    BackgroundColor="#b0b0b0"
+                    TextColor="Black"
+                    Grid.Column="1"
+                    Grid.Row="1"
+                    HeightRequest="40"/>
+
+             <Entry Placeholder="Carolina"
+                    BackgroundColor="#b0b0b0"
+                    TextColor="Black"
+                    Grid.Column="0"
+                    Grid.Row="2"
+                    HeightRequest="40"
+                    Grid.ColumnSpan="2"/>
         </Grid>
-    </Grid>
+
+        <Grid ColumnSpacing="10" Padding="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Button Text="VOLTAR"
+                    BackgroundColor="#4267B2"
+                    TextColor="White"
+                    Grid.Column="0"
+                    HeightRequest="50"
+                    FontAttributes="Bold"/>
+
+            <Button Text="+"
+                    BackgroundColor="Green"
+                    TextColor="White"
+                    Grid.Column="1"
+                    HeightRequest="50"
+                    FontAttributes="Bold"/>
+        </Grid>
+    </StackLayout>
 </ContentPage>
