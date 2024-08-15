@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="minhocaa.CompraTecidoMetro2"
+             Shell.NavBarIsVisible="False"
+             Title="Compra De Tecido M²"
+             BackgroundColor="#333333">
+
+    <ContentPage.Content>
+        <Grid Padding="10"
+              RowDefinitions="Auto, Auto, Auto, Auto, Auto, Auto"
+              ColumnDefinitions="Auto, *, Auto">
+
+            <!-- Header Label -->
+            <Label Text="Compra De Tecido M²"
+                   FontSize="Medium"
+                   TextColor="LightGray"
+                   Grid.Row="0"
+                   Grid.ColumnSpan="3"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                    Margin="0,100,0,10"/>
+
+            <!-- Quantidade -->
+            <Label Text="Quantidade :"
+                   TextColor="LightGray"
+                   VerticalOptions="Center"
+                   Margin="0,0,0,20"
+                   Grid.Row="1"
+                   Grid.Column="0"/>
+
+            <Entry x:Name="QuantidadeEntry"
+                   BackgroundColor="White"
+                   TextColor="Black"
+                   Grid.Row="1"
+                   Grid.Column="1"
+                    Margin="5,30,5,50"/>
+
+            <Button Text="🗑"
+                    BackgroundColor="Transparent"
+                    TextColor="Red"
+                    Grid.Row="1"
+                    Grid.Column="2"
+                    Clicked="OnDeleteButtonClicked"
+                    CommandParameter="{x:Reference QuantidadeEntry}"/>
+
+            <!-- Tecido -->
+            <Label Text="Tecido :"
+                   TextColor="LightGray"
+                   VerticalOptions="Center"
+                   Margin="0,0,0,50"
+                   Grid.Row="2"
+                   Grid.Column="0"/>
+
+            <Entry x:Name="TecidoEntry"
+                   BackgroundColor="White"
+                   TextColor="Black"
+                   Grid.Row="2"
+                   Grid.Column="1"
+                   Margin="5,0,5,50"/>
+                   
+            <Button Text="🗑"
+                    BackgroundColor="Transparent"
+                    TextColor="Red"
+                    Grid.Row="2"
+                    Grid.Column="2"
+                    Clicked="OnDeleteButtonClicked"
+                    CommandParameter="{x:Reference TecidoEntry}"/>
+
+            <!-- Localização -->
+            <Label Text="Localização :"
+                   TextColor="LightGray"
+                   VerticalOptions="Center"
+                   Margin="0,0,0,50"
+                   Grid.Row="3"
+                   Grid.Column="0"/>
+
+            <Entry x:Name="LocalizacaoEntry"
+                   BackgroundColor="White"
+                   TextColor="Black"
+                   Grid.Row="3"
+                   Grid.Column="1"
+                   Margin="5,0,5,50"/>
+
+            <Button Text="🗑"
+                    BackgroundColor="Transparent"
+                    TextColor="Red"
+                    Grid.Row="3"
+                    Grid.Column="2"
+                    Clicked="OnDeleteButtonClicked"
+                    CommandParameter="{x:Reference LocalizacaoEntry}"/>
+
+            <!-- Analisar Preço -->
+            <Label Text="Analisar Preço :"
+                   TextColor="LightGray"
+                   VerticalOptions="Center"
+                   Grid.Row="4"
+                   Grid.Column="0"/>
+            <Entry x:Name="AnalisarPrecoEntry"
+                   BackgroundColor="White"
+                   TextColor="Black"
+                   Grid.Row="4"
+                   Grid.Column="1"
+                   Margin="5,0"/>
+            <Button Text="🗑"
+                    BackgroundColor="Transparent"
+                    TextColor="Red"
+                    Grid.Row="4"
+                    Grid.Column="2"
+                    Clicked="OnDeleteButtonClicked"
+                    CommandParameter="{x:Reference AnalisarPrecoEntry}"/>
+
+            <!-- Footer Buttons -->
+            <Grid Grid.Row="5" Grid.ColumnSpan="3" ColumnDefinitions="*, *" Margin="0,20,0,0">
+                <Button Text="VOLTAR"
+                        BackgroundColor="#1E90FF"
+                        TextColor="White"
+                        Margin="5,100,0,0"
+                        Grid.Column="0"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"/>
+
+                <Button Text="FAZER COMPRA"
+                        BackgroundColor="Green"
+                        TextColor="White"
+                        Margin="5,100,0,0"
+                        Grid.Column="1"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"/>
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

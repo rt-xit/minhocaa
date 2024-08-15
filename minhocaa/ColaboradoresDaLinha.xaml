@@ -1,15 +1,16 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="minhocaa.ColaboradoresDaLinha"
+             Shell.NavBarIsVisible="False"
              BackgroundColor="#3b3b3b"
              Padding="20">
 
-    <StackLayout Spacing="10" VerticalOptions="Center">
+    <StackLayout Spacing="10" VerticalOptions="Start">
 
         <Label Text="Colaboradores de linha"
                BackgroundColor="#b0b0b0"
                TextColor="Black"
-               FontSize="Large"
+               FontSize="20"
                HorizontalOptions="FillAndExpand"
                VerticalOptions="CenterAndExpand"
                Padding="10"
@@ -18,7 +19,7 @@
         <Label Text="Cadastro"
                BackgroundColor="#b0b0b0"
                TextColor="Black"
-               FontSize="Medium"
+               FontSize="20"
                HorizontalOptions="FillAndExpand"
                VerticalOptions="CenterAndExpand"
                Padding="10"

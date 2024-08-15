@@ -1,46 +1,126 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="minhocaa.Corte"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="#2C2F33">
 
-             Title="Corte">
-    <Grid>
-        <Label Text="Corte"
-               FontSize="18"
-               HorizontalTextAlignment="Center"
-               VerticalTextAlignment="Center" />
-        <Grid RowDefinitions="Auto, *"
-              ColumnDefinitions="*, *"
-              Margin="20">
-            <Label Text="NOME:"
+    <StackLayout Padding="20">
+        
+            <Button Text="Corte" 
+                   TextColor="White"
+                   BackgroundColor="#808080"
+                   FontSize="30"
+                   Margin="0,80,0,100"
+                   HorizontalOptions="Center"/>
+       
+        
+        <Grid Padding="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Text="Nome :" 
+                   TextColor="White"
+                   FontSize="22"
                    Grid.Row="0"
-                   Grid.Column="0" />
-            <Label Text="QUANTIDADE:"
+                   Grid.Column="0"
+                   HorizontalOptions="Center"/>
+
+            <Label Text="Quantidade por Hr :" 
+                   TextColor="White"
+                   FontSize="22"
                    Grid.Row="0"
-                   Grid.Column="1" />
-            <Button Text="Renato"
+                   Grid.Column="1"
+                   HorizontalOptions="Center"/>
+
+            <Entry Placeholder="Nome:" 
+                    BackgroundColor="#737373"
+                    TextColor="White"
+                    Margin="0,10,5,30"
                     Grid.Row="1"
-                    Grid.Column="0"
-                    Clicked="NomeButtonClicked" />
-            <Label Text="35 Por Hora"
-                   Grid.Row="1"
-                   Grid.Column="1" />
-            <Button Text="Juliana"
+                    Grid.Column="0"/>
+
+           <Entry Placeholder="Insira um valor" 
+                    BackgroundColor="#737373"
+                     Margin="0,10,5,30"
+                    TextColor="White"
+                    Grid.Row="1"
+                    Grid.Column="1"/>
+
+            <Entry Placeholder="Nome:" 
+                    BackgroundColor="#737373"
+                    TextColor="White"
+                     Margin="0,10,5,30"
+                    Grid.Row="2"
+                    Grid.Column="0"/>
+
+            <Entry Placeholder="Insira um valor" 
+                    BackgroundColor="#737373"
+                     Margin="0,10,5,30"
+                    TextColor="White"
+                    Grid.Row="2"
+                    Grid.Column="1"/>
+
+            <Entry Placeholder="Nome:" 
+                    BackgroundColor="#737373"
+                    TextColor="White"
+                     Margin="0,10,5,30"
+                    Grid.Row="3"
+                    Grid.Column="0"/>
+
+            <Entry Placeholder="Insira um valor" 
+                    BackgroundColor="#737373"
+                     Margin="0,10,5,30"
+                    TextColor="White"
+                    Grid.Row="3"
+                    Grid.Column="1"/>
+
+            <Entry Placeholder="Nome:" 
+                    BackgroundColor="#737373"
+                    TextColor="White"
+                    Margin="0,10,5,30"
                     Grid.Row="4"
-                    Grid.Column="0"
-                    Clicked="NomeButtonClicked" />
-            <Label Text="40 Por Hora"
+                    Grid.Column="0"/>
+
+            <Entry Placeholder="Insira um valor" 
+                    BackgroundColor="#737373"
+                     Margin="0,10,5,30"
+                    TextColor="White"
                     Grid.Row="4"
-                    Grid.Column="1" />
+                    Grid.Column="1"/>
         </Grid>
-        <Grid RowDefinitions="Auto"
-              ColumnDefinitions="*,Auto"
-              Margin="20">
-            <Button Text="Voltar"
-                    Grid.Column="0"
-                    Clicked="Voltar" />
+
+        <StackLayout Orientation="Horizontal"
+                     HorizontalOptions="Center"
+                     Spacing="20"
+                     Padding="10">
+
+            <Button Text="VOLTAR"
+                    x:Name="VoltarButton"
+                    WidthRequest="100"
+                    HeightRequest="60"
+                    Margin="30,40,150,50"
+                    BackgroundColor="#3B82F6"
+                    TextColor="White"/>
+                    
             <Button Text="="
-                    Grid.Column="1"
-                    Clicked="Calcular" />
-        </Grid>
-    </Grid>
+                    x:Name="CalcularButton"
+                    FontSize="25"
+                    WidthRequest="60"
+                    Margin="0,0,100,5"
+                    HeightRequest="60"
+                    BackgroundColor="#22C55E"
+                    TextColor="White"/>
+
+        </StackLayout>
+    </StackLayout>
 </ContentPage>

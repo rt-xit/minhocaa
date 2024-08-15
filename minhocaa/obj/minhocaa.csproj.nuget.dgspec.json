@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aluno\\minhocaa-1\\minhocaa\\minhocaa.csproj": {}
+    "C:\\Users\\Aluno\\minhocaa\\minhocaa\\minhocaa.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aluno\\minhocaa-1\\minhocaa\\minhocaa.csproj": {
+    "C:\\Users\\Aluno\\minhocaa\\minhocaa\\minhocaa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aluno\\minhocaa-1\\minhocaa\\minhocaa.csproj",
+        "projectUniqueName": "C:\\Users\\Aluno\\minhocaa\\minhocaa\\minhocaa.csproj",
         "projectName": "minhocaa",
-        "projectPath": "C:\\Users\\Aluno\\minhocaa-1\\minhocaa\\minhocaa.csproj",
+        "projectPath": "C:\\Users\\Aluno\\minhocaa\\minhocaa\\minhocaa.csproj",
         "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aluno\\minhocaa-1\\minhocaa\\obj\\",
+        "outputPath": "C:\\Users\\Aluno\\minhocaa\\minhocaa\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [

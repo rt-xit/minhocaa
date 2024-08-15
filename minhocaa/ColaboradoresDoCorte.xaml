@@ -2,68 +2,71 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="minhocaa.ColaboradoresDoCorte"
-             BackgroundColor="Gray">
-    <VerticalStackLayout Padding="20" Spacing="20" VerticalOptions="Center" HorizontalOptions="Center">
-        <Label Text="Colaboradores de corte" 
-               HorizontalOptions="Center" 
-               TextColor="White"
-               FontAttributes="Bold"
-               Margin="0, 10"/>
-        <Button Text="Cadastro" 
-                BackgroundColor="LightGray" 
-                TextColor="Black" 
-                HorizontalOptions="Center"
-                Clicked="OnCadastroClicked"
-                WidthRequest="150"/>
-        <Grid ColumnDefinitions="*,*"
-              RowDefinitions="Auto,Auto,Auto">
-            <Button Text="Carlos" 
-                    BackgroundColor="LightGray" 
-                    TextColor="Black" 
-                    Clicked="OnColaboradorClicked"
-                    Margin="5"/>
-            <Button Text="Renato" 
-                    BackgroundColor="LightGray" 
-                    TextColor="Black" 
-                    Grid.Column="1" 
-                    Clicked="OnColaboradorClicked"
-                    Margin="5"/>
-            <Button Text="Lucas" 
-                    BackgroundColor="LightGray" 
-                    TextColor="Black" 
-                    Grid.Row="1" 
-                    Clicked="OnColaboradorClicked"
-                    Margin="5"/>
-            <Button Text="Juliana" 
-                    BackgroundColor="LightGray" 
-                    TextColor="Black" 
-                    Grid.Row="1" 
-                    Grid.Column="1" 
-                    Clicked="OnColaboradorClicked"
-                    Margin="5"/>
-            <Button Text="Roberto" 
-                    BackgroundColor="LightGray" 
-                    TextColor="Black" 
-                    Grid.Row="2" 
-                    Clicked="OnColaboradorClicked"
-                    Margin="5"/>
-            <Button Text="Larissa" 
-                    BackgroundColor="LightGray" 
-                    TextColor="Black" 
-                    Grid.Row="2" 
-                    Grid.Column="1" 
-                    Clicked="OnColaboradorClicked"
-                    Margin="5"/>
+             Shell.NavBarIsVisible="False"
+             Title="Colaboradores de corte">
+
+    <ContentPage.Content>
+        <Grid BackgroundColor="#333333"
+              Padding="10"
+              RowDefinitions="Auto, Auto, *, Auto"
+              ColumnDefinitions="*, *">
+            
+            <!-- Header Label -->
+            <Label Text="Colaboradores de corte"
+                   FontSize="30"
+                   TextColor="LightGray"
+                   Grid.Row="0"
+                   Grid.ColumnSpan="2"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   Margin="0,100,0,10"/>
+            
+            <!-- Cadastro Button -->
+            <Button Text="Cadastro"
+                    BackgroundColor="Gray"
+                    TextColor="White"
+                    FontSize="25"
+                    Grid.Row="1"
+                    Grid.ColumnSpan="2"
+                    HorizontalOptions="Fill"
+                    VerticalOptions="Center"
+                    Margin="10,50"/>
+            
+            <!-- Collaborator Buttons -->
+            <StackLayout Grid.Row="2" Grid.Column="0" Spacing="5">
+                <Button Text="Carlos" Margin="10, 5" BackgroundColor="Gray" TextColor="White"/>
+                <Button Text="Lucas" Margin="10, 5" BackgroundColor="Gray" TextColor="White"/>
+                <Button Text="Roberto" Margin="10, 5" BackgroundColor="Gray" TextColor="White"/>
+            </StackLayout>
+            <StackLayout Grid.Row="2" Grid.Column="1" Spacing="5">
+                <Button Text="Renato" Margin="10, 5" BackgroundColor="Gray" TextColor="White"/>
+                <Button Text="Juliana" Margin="10, 5" BackgroundColor="Gray" TextColor="White"/>
+                <Button Text="Larissa" Margin="10, 5" BackgroundColor="Gray" TextColor="White"/>
+            </StackLayout>
+            
+            <!-- Footer Buttons -->
+            <Grid Grid.Row="3" Grid.ColumnSpan="2" ColumnDefinitions="*, Auto" Margin="0,5,0,0">
+                <Button Text="VOLTAR"
+                        BackgroundColor="#1E90FF"
+                        TextColor="White"
+                        Margin="100,0,0,400"
+                        Grid.Column="0"
+                        HorizontalOptions="Start"
+                        VerticalOptions="Center"
+                         WidthRequest="90"
+                        HeightRequest="60"/>
+
+                <Button Text="+"
+                        BackgroundColor="Green"
+                        TextColor="White"
+                        FontSize="30"
+                        Grid.Column="1"
+                        Margin="0,0,100,400"
+                        HorizontalOptions="End"
+                        VerticalOptions="Center"
+                        WidthRequest="60"
+                        HeightRequest="60"/>
+            </Grid>
         </Grid>
-        <HorizontalStackLayout Spacing="10" HorizontalOptions="Center" Margin="0, 20">
-            <Button Text="VOLTAR" 
-                    BackgroundColor="Blue" 
-                    TextColor="White" 
-                    Clicked="OnBackClicked"/>
-            <Button Text="+" 
-                    BackgroundColor="Green" 
-                    TextColor="White" 
-                    Clicked="OnAddClicked"/>
-        </HorizontalStackLayout>
-    </VerticalStackLayout>
+    </ContentPage.Content>
 </ContentPage>

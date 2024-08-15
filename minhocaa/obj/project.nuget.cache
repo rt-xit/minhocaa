@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YIqe0SsoQAI=",
+  "dgSpecHash": "4t6VpbK2hBc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Aluno\\minhocaa-1\\minhocaa\\minhocaa.csproj",
+  "projectFilePath": "C:\\Users\\Aluno\\minhocaa\\minhocaa\\minhocaa.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aluno\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\Aluno\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
