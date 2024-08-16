@@ -84,6 +84,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = minhocaa.DespacheAcabament
 build_metadata.AdditionalFiles.TargetPath = DespacheAcabamento.xaml
 build_metadata.AdditionalFiles.RelativePath = DespacheAcabamento.xaml
 
+[C:/Users/Aluno/minhocaa/minhocaa/DespacheDeTecido.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = minhocaa.DespacheDeTecido.xaml
+build_metadata.AdditionalFiles.TargetPath = DespacheDeTecido.xaml
+build_metadata.AdditionalFiles.RelativePath = DespacheDeTecido.xaml
+
 [C:/Users/Aluno/minhocaa/minhocaa/FrameAcabamento.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = minhocaa.FrameAcabamento.xaml
