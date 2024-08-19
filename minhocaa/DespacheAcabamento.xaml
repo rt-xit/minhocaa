@@ -4,7 +4,9 @@
              x:Class="minhocaa.DespacheAcabamento"
              Shell.NavBarIsVisible="False"
              BackgroundColor="#3C3F41">
+
     <ContentPage.Content>
+    
         <Grid Padding="20">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>

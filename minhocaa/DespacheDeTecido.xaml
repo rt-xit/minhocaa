@@ -12,8 +12,10 @@
             <Frame BackgroundColor="#6A6A6A"
                    Padding="10"
                    CornerRadius="10"
+                    Margin="0,50,0,0"
                    HorizontalOptions="Center"
                    VerticalOptions="Start">
+                   
                 <Label Text="Despache De Tecido"
                        FontSize="Large"
                        TextColor="White"
@@ -40,19 +42,23 @@
                        TextColor="White"
                        VerticalOptions="Center"
                        HorizontalOptions="End"
-                       Margin="0,0,10,0"/>
+                       Margin="0,50,30,0"/>
+
                 <Entry x:Name="FabricEntry"
                        Placeholder="Digite o tipo de tecido"
                        BackgroundColor="White"
                        TextColor="Black"
                        Grid.Row="0"
                        Grid.Column="1"
+                       Margin="0,50,10,0"
                        VerticalOptions="Center"
                        HorizontalOptions="FillAndExpand"/>
+
                 <Button Text="🗑"
                         BackgroundColor="Transparent"
                         TextColor="Red"
                         FontSize="Medium"
+                         Margin="0,50,10,0"
                         CommandParameter="Fabric"
                         Clicked="OnClearButtonClicked"
                         Grid.Row="0"
@@ -65,21 +71,25 @@
                        TextColor="White"
                        VerticalOptions="Center"
                        HorizontalOptions="End"
-                       Margin="0,0,10,0"/>
+                       Margin="0,50,10,0"/>
+
                 <Entry x:Name="LocationEntry"
                        Placeholder="Digite a localidade"
                        BackgroundColor="White"
                        TextColor="Black"
                        Grid.Row="1"
                        Grid.Column="1"
+                       Margin="0,50,10,0"
                        VerticalOptions="Center"
                        HorizontalOptions="FillAndExpand"/>
+
                 <Button Text="🗑"
                         BackgroundColor="Transparent"
                         TextColor="Red"
                         FontSize="Medium"
                         CommandParameter="Location"
                         Clicked="OnClearButtonClicked"
+                        Margin="0,50,10,0"
                         Grid.Row="1"
                         Grid.Column="2"/>
 
@@ -90,19 +100,23 @@
                        TextColor="White"
                        VerticalOptions="Center"
                        HorizontalOptions="End"
-                       Margin="0,0,10,0"/>
+                       Margin="0,50,10,0"/>
+
                 <Entry x:Name="QuantityEntry"
                        Placeholder="Digite a quantidade"
                        BackgroundColor="White"
                        TextColor="Black"
                        Grid.Row="2"
                        Grid.Column="1"
+                        Margin="0,50,10,0"
                        VerticalOptions="Center"
                        HorizontalOptions="FillAndExpand"/>
+
                 <Button Text="🗑"
                         BackgroundColor="Transparent"
                         TextColor="Red"
                         FontSize="Medium"
+                         Margin="0,50,10,0"
                         CommandParameter="Quantity"
                         Clicked="OnClearButtonClicked"
                         Grid.Row="2"
@@ -123,6 +137,7 @@
                         Grid.Column="0"
                         Clicked="OnBackButtonClicked"
                         CornerRadius="5"
+                        Margin="10,400,0,0"
                         Padding="10"/>
 
                 <Button Text="FAZER COMPRA"
@@ -132,6 +147,7 @@
                         Grid.Column="1"
                         Clicked="OnPurchaseButtonClicked"
                         CornerRadius="5"
+                        Margin="10,400,0,0"
                         Padding="10"/>
             </Grid>
         </VerticalStackLayout>
