@@ -2,31 +2,68 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="minhocaa.FrameCliente"
+             Shell.NavBarIsVisible="False"
              BackgroundColor="#333333">
 
-    <StackLayout Padding="20" Spacing="20">
+    <StackLayout Padding="20"
+            Spacing="20">
         <!-- Título -->
-        <Label Text="Deseja entrar em contato com qual cliente?"
-               FontSize="Large"
+        <Frame BackgroundColor="#6A6A6A"
+               Padding="10"
+               CornerRadius="10"
+               Margin="0,0,0,100"
                HorizontalOptions="Center"
-               TextColor="White"
-               BackgroundColor="#666666"
-               Padding="10"/>
-        
+               VerticalOptions="Start">
+
+            <Label Text="Deseja Entrar em contato
+                com qual cliente?"
+                   FontSize="30"
+                   TextColor="White"
+                   HorizontalOptions="Center"/>
+        </Frame>
         <!-- Botões de Clientes -->
         <Grid ColumnDefinitions="*,*"
               RowDefinitions="Auto,Auto">
-            
-            <Button Text="Batista" BackgroundColor="#cccccc" Grid.Row="0" Grid.Column="0" TextColor="Black" />
-            <Button Text="Adolfo" BackgroundColor="#cccccc" Grid.Row="0" Grid.Column="1" TextColor="Black" />
-            <Button Text="Hitler" BackgroundColor="#cccccc" Grid.Row="1" Grid.Column="0" TextColor="Black" />
-            <Button Text="Josefina" BackgroundColor="#cccccc" Grid.Row="1" Grid.Column="1" TextColor="Black" />
+
+            <Button Text="Batista"
+                    BackgroundColor="#cccccc"
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    TextColor="Black"
+                    Margin="0,0,10,20"/>
+            <Button Text="Adolfo"
+                    BackgroundColor="#cccccc"
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    TextColor="Black"
+                    Margin="0,0,10,20"/>
+            <Button Text="Hitler"
+                    BackgroundColor="#cccccc"
+                    Grid.Row="1"
+                    Grid.Column="0"
+                    TextColor="Black"
+                    Margin="0,0,0,20"/>
+            <Button Text="Josefina"
+                    BackgroundColor="#cccccc"
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    TextColor="Black"
+                    Margin="0,0,0,20"/>
         </Grid>
 
         <!-- Botões -->
-        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Spacing="20">
-            <Button Text="VOLTAR" BackgroundColor="Blue" TextColor="White" WidthRequest="150"/>
-            <Button Text="LIGAR" BackgroundColor="Green" TextColor="White" WidthRequest="150"/>
+        <StackLayout Orientation="Horizontal"
+                HorizontalOptions="CenterAndExpand"
+                Spacing="20">
+            <Button Text="VOLTAR"
+                    BackgroundColor="Blue"
+                    TextColor="White"
+                    WidthRequest="150"
+                    Clicked="Voltar"/>
+            <Button Text="LIGAR"
+                    BackgroundColor="Green"
+                    TextColor="White"
+                    WidthRequest="150"/>
         </StackLayout>
     </StackLayout>
 </ContentPage>

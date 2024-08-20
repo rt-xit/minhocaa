@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("minhocaa")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+6ac0b93c787475f7cdde866434b3728f9c4edfc7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+a822ea6396d93339ea388d9cccb16325348894ae")]
 [assembly: System.Reflection.AssemblyProductAttribute("minhocaa")]
 [assembly: System.Reflection.AssemblyTitleAttribute("minhocaa")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
