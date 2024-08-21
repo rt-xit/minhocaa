@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="minhocaa.FrameCliente"
              Shell.NavBarIsVisible="False"
-             BackgroundColor="#333333">
+             BackgroundColor="#3b3b3b">
 
     <StackLayout Padding="20"
             Spacing="20">
@@ -15,8 +15,7 @@
                HorizontalOptions="Center"
                VerticalOptions="Start">
 
-            <Label Text="Deseja Entrar em contato
-                com qual cliente?"
+            <Label Text="Deseja Entrar em contato com qual cliente?"
                    FontSize="30"
                    TextColor="White"
                    HorizontalOptions="Center"/>
@@ -25,26 +24,29 @@
         <Grid ColumnDefinitions="*,*"
               RowDefinitions="Auto,Auto">
 
-            <Button Text="Batista"
-                    BackgroundColor="#cccccc"
+            <Button Text="BATISTA"
+                    BackgroundColor="#b0b0b0" 
                     Grid.Row="0"
                     Grid.Column="0"
                     TextColor="Black"
                     Margin="0,0,10,20"/>
-            <Button Text="Adolfo"
-                    BackgroundColor="#cccccc"
+
+             <Button Text="ADOLFO"
+                    BackgroundColor="#b0b0b0" 
                     Grid.Row="0"
                     Grid.Column="1"
                     TextColor="Black"
                     Margin="0,0,10,20"/>
-            <Button Text="Hitler"
-                    BackgroundColor="#cccccc"
+
+             <Button Text="HITLER"
+                    BackgroundColor="#b0b0b0" 
                     Grid.Row="1"
                     Grid.Column="0"
                     TextColor="Black"
-                    Margin="0,0,0,20"/>
-            <Button Text="Josefina"
-                    BackgroundColor="#cccccc"
+                    Margin="0,0,10,20"/>
+
+             <Button Text="JOSEFINA"
+                     BackgroundColor="#b0b0b0" 
                     Grid.Row="1"
                     Grid.Column="1"
                     TextColor="Black"
@@ -60,6 +62,7 @@
                     TextColor="White"
                     WidthRequest="150"
                     Clicked="Voltar"/>
+
             <Button Text="LIGAR"
                     BackgroundColor="Green"
                     TextColor="White"

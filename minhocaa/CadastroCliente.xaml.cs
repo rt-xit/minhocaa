@@ -8,6 +8,10 @@ namespace minhocaa
         {
             InitializeComponent();
         }
+         private void EntrarEmContato(object sender, EventArgs e)
+        {
+           Application.Current.MainPage = new FrameCliente();
+        }
     }
 }
     

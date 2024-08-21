@@ -516,11 +516,6 @@ C:\Users\Aluno\minhocaa\minhocaa\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\
 C:\Users\Aluno\minhocaa\minhocaa\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\appiconLogo.scale-125.png
 C:\Users\Aluno\minhocaa\minhocaa\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\appiconLogo.scale-100.png
 C:\Users\Aluno\minhocaa\minhocaa\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\appicon.ico
-C:\Users\Aluno\minhocaa\minhocaa\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\dotnet_bot.scale-400.png
-C:\Users\Aluno\minhocaa\minhocaa\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\dotnet_bot.scale-200.png
-C:\Users\Aluno\minhocaa\minhocaa\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\dotnet_bot.scale-150.png
-C:\Users\Aluno\minhocaa\minhocaa\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\dotnet_bot.scale-125.png
-C:\Users\Aluno\minhocaa\minhocaa\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\dotnet_bot.scale-100.png
 C:\Users\Aluno\minhocaa\minhocaa\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CoreMessagingXP.dll
 C:\Users\Aluno\minhocaa\minhocaa\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\dcompi.dll
 C:\Users\Aluno\minhocaa\minhocaa\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\dwmcorei.dll
@@ -891,11 +886,6 @@ C:\Users\Aluno\minhocaa\minhocaa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\
 C:\Users\Aluno\minhocaa\minhocaa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png
 C:\Users\Aluno\minhocaa\minhocaa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png
 C:\Users\Aluno\minhocaa\minhocaa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico
-C:\Users\Aluno\minhocaa\minhocaa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png
-C:\Users\Aluno\minhocaa\minhocaa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png
-C:\Users\Aluno\minhocaa\minhocaa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png
-C:\Users\Aluno\minhocaa\minhocaa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png
-C:\Users\Aluno\minhocaa\minhocaa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png
 C:\Users\Aluno\minhocaa\minhocaa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauiimage.stamp
 C:\Users\Aluno\minhocaa\minhocaa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauiimage.outputs
 C:\Users\Aluno\minhocaa\minhocaa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\minhocaa.AssemblyInfoInputs.cache
@@ -924,3 +914,5 @@ C:\Users\Aluno\minhocaa\minhocaa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\
 C:\Users\Aluno\minhocaa\minhocaa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt
 C:\Users\Aluno\minhocaa\minhocaa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\Aluno\minhocaa\minhocaa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Aluno\minhocaa\minhocaa\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\calsasfundo.scale-100.jpg
+C:\Users\Aluno\minhocaa\minhocaa\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\calsasfundo.scale-100.jpg

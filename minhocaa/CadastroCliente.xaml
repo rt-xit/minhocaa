@@ -3,11 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="minhocaa.CadastroCliente"
              Shell.NavBarIsVisible="False"
-             BackgroundColor="#4D4D4D">
+             BackgroundColor="#333333">
 
     <VerticalStackLayout Padding="20"
             Spacing="20">
-        <!-- Título -->
+    
         <Frame BackgroundColor="#6A6A6A"
                    Padding="10"
                    CornerRadius="10"
@@ -26,8 +26,8 @@
         <Grid ColumnSpacing="10"
                 RowSpacing="10">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="2*"/>
-                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
             <Grid.RowDefinitions>
@@ -35,67 +35,88 @@
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
+                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
 
             <!-- Cabeçalhos -->
-            <Label Text="Nome :"
+            <Label Text="Insirir Nome :"
                     FontSize="20"
                     Grid.Row="0"
                     Grid.Column="0"
                     TextColor="White"
-                    HorizontalOptions="Start"/>
+                    HorizontalOptions="Center"/>
 
-            <Label  Text="Telefone :"
+            <Label  Text="Insirir Telefone :"
                     FontSize="20"
                     Grid.Row="0"
                     Grid.Column="1"
                     TextColor="White"
-                    HorizontalOptions="Start"/>
+                    HorizontalOptions="Center"/>
 
             <!-- Linhas de Dados -->
-            <Label Text="Batista"
+            <Entry Placeholder="Nome:"
                     Grid.Row="1"
                     Grid.Column="0"
-                    BackgroundColor="#D3D3D3"
-                    HorizontalOptions="Start"/>
-            <Label Text="(11)99941 - 2835"
+                    TextColor="Black"
+                    BackgroundColor="#b0b0b0" 
+                    HorizontalOptions="Center"
+                    WidthRequest="200"/>
+
+            <Entry Placeholder="Telefone:"
                     Grid.Row="1"
                     Grid.Column="1"
-                    BackgroundColor="#D3D3D3"
-                    HorizontalOptions="Start"/>
+                    TextColor="Black"
+                    BackgroundColor="#b0b0b0"
+                    HorizontalOptions="Center"
+                    WidthRequest="200"/>
 
-            <Label Text="Adolfo"
+            <Entry Placeholder="Nome:"
                     Grid.Row="2"
                     Grid.Column="0"
-                    BackgroundColor="#D3D3D3"
-                    HorizontalOptions="Start"/>
-            <Label Text="(13)99864 - 4855"
+                    TextColor="Black"
+                    BackgroundColor="#b0b0b0"
+                    HorizontalOptions="Center"
+                    WidthRequest="200"/>
+
+            <Entry Placeholder="Telefone:"
                     Grid.Row="2"
                     Grid.Column="1"
-                    BackgroundColor="#D3D3D3"
-                    HorizontalOptions="Start"/>
+                    TextColor="Black"
+                    BackgroundColor="#b0b0b0"
+                    HorizontalOptions="Center"
+                    WidthRequest="200"/>
 
-            <Label Text="Hitler"
+            <Entry Placeholder="Nome:"
                     Grid.Row="3"
                     Grid.Column="0"
-                    BackgroundColor="#D3D3D3"
-                    HorizontalOptions="Start"/>
-            <Label Text="(77)99671 - 9980"
+                    TextColor="Black"
+                    BackgroundColor="#b0b0b0"
+                    HorizontalOptions="Center"
+                    WidthRequest="200"/>
+
+           <Entry Placeholder="Telefone:"
                     Grid.Row="3"
                     Grid.Column="1"
-                    BackgroundColor="#D3D3D3"
-                    HorizontalOptions="Start"/>
+                    TextColor="Black"
+                    BackgroundColor="#b0b0b0"
+                    HorizontalOptions="Center"
+                    WidthRequest="200"/>
 
-            <Label Text="Josefina"
+            <Entry Placeholder="Nome:"
                     Grid.Row="4"
                     Grid.Column="0"
-                    BackgroundColor="#D3D3D3"
-                    HorizontalOptions="Start"/>
-            <Label Text="(43)99958 - 4891"
+                    TextColor="Black"
+                    BackgroundColor="#b0b0b0"
+                    HorizontalOptions="Center"
+                    WidthRequest="200"/>
+
+            <Entry Placeholder="Telefone:"
                     Grid.Row="4"
                     Grid.Column="1"
-                    BackgroundColor="#D3D3D3"
-                    HorizontalOptions="Start"/>
+                    TextColor="Black"
+                    BackgroundColor="#b0b0b0"
+                    HorizontalOptions="Center"
+                WidthRequest="200"/>
         </Grid>
 
         <!-- Botões -->
@@ -106,19 +127,22 @@
             </Grid.ColumnDefinitions>
 
             <Button Text="VOLTAR"
-                    BackgroundColor="#4B70DD"
+                    BackgroundColor="Blue"
                     TextColor="White"
                     HorizontalOptions="FillAndExpand"
                     Grid.Column="0"
                     CornerRadius="5"
+                    Margin="0,70,0,0"
                     Padding="10"/>
 
             <Button Text="ENTRAR EM CONTATO"
-                    BackgroundColor="#24B650"
+                    BackgroundColor="Green"
                     TextColor="White"
                     HorizontalOptions="FillAndExpand"
                     Grid.Column="1"
                     CornerRadius="5"
+                    Margin="0,70,0,0"
+                    Clicked="EntrarEmContato"
                     Padding="10"/>
         </Grid>
 

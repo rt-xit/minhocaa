@@ -7,14 +7,18 @@
 
     <StackLayout Spacing="10" VerticalOptions="Start">
 
-        <Label Text="Bordado"
-               BackgroundColor="#b0b0b0"
-               TextColor="Black"
-               FontSize="Large"
-               HorizontalOptions="FillAndExpand"
-               VerticalOptions="Start"
-               Padding="10"
-               HorizontalTextAlignment="Center"/>
+         <Frame BackgroundColor="#6A6A6A"
+                   Padding="10"
+                   CornerRadius="10"
+                    Margin="0,0,0,100"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Start">
+                   
+                <Label Text="Bordado"
+                       FontSize="Large"
+                       TextColor="White"
+                       HorizontalOptions="Center"/>
+            </Frame>
              
 
         <Grid ColumnSpacing="10" RowSpacing="10" Padding="10">
@@ -30,14 +34,14 @@
                 <RowDefinition Height="Auto" />
             </Grid.RowDefinitions>
 
-            <Label Text="NOME :" 
+            <Label Text="Nome :" 
                    TextColor="White"
                    FontSize="Medium"
                    Grid.Column="0"
                    Grid.Row="0" 
                    VerticalOptions="Center"/>
 
-            <Label Text="QUANTIDADE :" 
+            <Label Text="Quantidade :" 
                    TextColor="White"
                    FontSize="20"
                    Grid.Column="1"
