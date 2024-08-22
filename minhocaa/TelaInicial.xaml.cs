@@ -9,5 +9,15 @@ namespace minhocaa
             InitializeComponent();
         }
 
+        private void Cliente(object sender, EventArgs e)
+        {
+           Application.Current.MainPage = new CadastroCliente();
+        }
+
+        private void Tecido(object sender, EventArgs e)
+        {
+           Application.Current.MainPage = new CompraTecidoMetro2();
+        }
     }
+     
 }

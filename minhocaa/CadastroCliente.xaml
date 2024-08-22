@@ -133,6 +133,7 @@
                     Grid.Column="0"
                     CornerRadius="5"
                     Margin="0,70,0,0"
+                    Clicked="Voltar"
                     Padding="10"/>
 
             <Button Text="ENTRAR EM CONTATO"

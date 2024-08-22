@@ -96,18 +96,21 @@
                    VerticalOptions="Center"
                    Grid.Row="4"
                    Grid.Column="0"/>
+
             <Entry x:Name="AnalisarPrecoEntry"
                    BackgroundColor="White"
                    TextColor="Black"
                    Grid.Row="4"
                    Grid.Column="1"
                    Margin="5,0"/>
+
             <Button Text="🗑"
                     BackgroundColor="Transparent"
                     TextColor="Red"
                     Grid.Row="4"
                     Grid.Column="2"
                     Clicked="OnDeleteButtonClicked"
+                    Margin="0,0,0,0"
                     CommandParameter="{x:Reference AnalisarPrecoEntry}"/>
 
             <!-- Footer Buttons -->

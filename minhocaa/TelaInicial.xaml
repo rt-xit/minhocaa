@@ -1,24 +1,53 @@
-<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="minhocaa.TelaInicial"
              Shell.NavBarIsVisible="False"
-             BackgroundColor="#b3afaf">
-               
+             BackgroundColor="#3b3b3b"
+             Padding="20">
 
-     <Grid>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
-            </Grid.ColumnDefinitions>
+    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Spacing="20">
 
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-            </Grid.RowDefinitions>
+        <Label Text="Bem Vindo ao Site X;"
+               BackgroundColor="#3b3b3b"
+               TextColor="White"
+               FontSize="Large"
+               Padding="20"
+               HorizontalTextAlignment="Center"
+               VerticalOptions="CenterAndExpand"
+               Margin="0,0,0,70"
+               HorizontalOptions="Center"/>
 
-    <Image Source="calsasfundo.jpg"/>
-    
+        <Button Text="Checklist"
+                BackgroundColor="White"
+                TextColor="Black"
+                WidthRequest="200"
+                HeightRequest="50"
+                HorizontalOptions="Center"/>
+
+        <Button Text="Tempo de Produção"
+                BackgroundColor="White"
+                TextColor="Black"
+                WidthRequest="200"
+                HeightRequest="50"
+                HorizontalOptions="Center"/>
+
+        <Button Text="Cliente"
+                BackgroundColor="White"
+                TextColor="Black"
+                CornerRadius="5"
+                WidthRequest="200"
+                HeightRequest="50"
+                HorizontalOptions="Center"
+                Clicked="Cliente"/>
+
+        <Button Text="Tecidos"
+                BackgroundColor="White"
+                TextColor="Black"
+                CornerRadius="5"
+                WidthRequest="200"
+                HeightRequest="50"
+                Clicked="Tecido"
+                HorizontalOptions="Center"/>
+
+    </StackLayout>
 </ContentPage>
