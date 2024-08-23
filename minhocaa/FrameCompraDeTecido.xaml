@@ -1,27 +1,34 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Shell.NavBarIsVisible="False"
              x:Class="minhocaa.FrameCompraDeTecido"
              BackgroundColor="Gray">
+
     <VerticalStackLayout Padding="20" Spacing="20" VerticalOptions="Center" HorizontalOptions="Center">
+
         <Label Text="Deseja adicionar mais tecidos?" 
                HorizontalOptions="Center" 
                TextColor="White"/>
+
         <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
-            <Entry x:Name="inputText" WidthRequest="200"/>
+                <Entry Placeholder="Tecido:" WidthRequest="200"/>
+
             <Button Text="🗑️" 
                     BackgroundColor="Red" 
-                    TextColor="White" 
-                    Clicked="OnDeleteClicked"/>
+                    TextColor="White"/>
+
             <Button Text="+" 
                     BackgroundColor="Green" 
-                    TextColor="White" 
-                    Clicked="OnAddClicked"/>
+                    TextColor="White"/>
+
         </HorizontalStackLayout>
+
         <Button Text="VOLTAR" 
                 BackgroundColor="Blue" 
                 TextColor="White" 
-                Clicked="OnBackClicked"
+                Clicked="Voltar"
                 HorizontalOptions="Center"/>
+
     </VerticalStackLayout>
 </ContentPage>

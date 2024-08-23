@@ -9,7 +9,7 @@
 
     <ShellContent
         Title="Home"
-        ContentTemplate="{DataTemplate local:TelaInicial}"
+        ContentTemplate="{DataTemplate local:FrameCompraDeTecido}"
         Route="MainPage" />
 
 </Shell>

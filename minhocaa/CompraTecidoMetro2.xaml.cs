@@ -27,5 +27,10 @@ namespace minhocaa
         {
             // Logic to handle the "Fazer Compra" button click
         }
+
+        private void Voltar(object sender, EventArgs e)
+        {
+           Application.Current.MainPage = new TelaInicial();
+        }
     }
 }

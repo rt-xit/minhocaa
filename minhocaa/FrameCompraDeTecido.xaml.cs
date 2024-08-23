@@ -9,11 +9,6 @@ namespace minhocaa
             InitializeComponent();
         }
 
-        private void OnDeleteClicked(object sender, EventArgs e)
-        {
-            inputText.Text = string.Empty;
-        }
-
         private void OnAddClicked(object sender, EventArgs e)
         {
             // Implementar a lógica para adicionar mais tecidos aqui
@@ -24,6 +19,11 @@ namespace minhocaa
         {
             // Implementar a lógica para voltar aqui
             // Por exemplo, você pode navegar para a página anterior
+        }
+
+        private void Voltar(object sender, EventArgs e)
+        {
+           Application.Current.MainPage = new CompraTecidoMetro2();
         }
     }
 }

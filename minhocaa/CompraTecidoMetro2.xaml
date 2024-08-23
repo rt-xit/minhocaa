@@ -115,12 +115,14 @@
 
             <!-- Footer Buttons -->
             <Grid Grid.Row="5" Grid.ColumnSpan="3" ColumnDefinitions="*, *" Margin="0,20,0,0">
+
                 <Button Text="VOLTAR"
-                        BackgroundColor="#1E90FF"
+                        BackgroundColor="Blue"
                         TextColor="White"
                         Margin="5,100,0,0"
                         Grid.Column="0"
                         HorizontalOptions="Center"
+                        Clicked="Voltar"
                         VerticalOptions="Center"/>
 
                 <Button Text="FAZER COMPRA"

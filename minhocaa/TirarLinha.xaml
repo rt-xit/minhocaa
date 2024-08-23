@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="minhocaa.TirarLinha"
              BackgroundColor="#3C3F41">
-    <ContentPage.Content>
+    
         <Grid Padding="20">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
@@ -90,5 +90,4 @@
                         HorizontalOptions="Center"/>
             </Grid>
         </Grid>
-    </ContentPage.Content>
 </ContentPage>
