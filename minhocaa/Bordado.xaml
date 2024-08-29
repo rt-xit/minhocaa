@@ -119,21 +119,22 @@
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
 
-            <Button Text="VOLTAR" 
-                    BackgroundColor="#4267B2" 
+            <Button Text="Voltar" 
+                    BackgroundColor="Blue"
+                    FontSize="16" 
                     TextColor="White"
                     CornerRadius="5"
                     Grid.Column="0" 
-                    HeightRequest="50"
-                    FontAttributes="Bold"/>
+                    Clicked="Voltar"
+                    HeightRequest="50"/>
 
             <Button Text="=" 
-                    BackgroundColor="Green" 
+                    BackgroundColor="Green"
+                    FontSize="25"
                     TextColor="White"
                     CornerRadius="5"
                     Grid.Column="1"
-                    HeightRequest="50"
-                    FontAttributes="Bold"/>
+                    HeightRequest="50"/>
         </Grid>
     </StackLayout>
 </ContentPage>

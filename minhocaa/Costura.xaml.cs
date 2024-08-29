@@ -8,7 +8,9 @@ namespace minhocaa
         {
             InitializeComponent();
         }
-
-        // Event handlers and methods can be added here if needed
+       private void Voltar(object sender, EventArgs e)
+        {
+           Application.Current.MainPage = new FrameCentral();
+        }
     }
 }

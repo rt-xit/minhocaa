@@ -29,6 +29,7 @@
                 TextColor="Black"
                 WidthRequest="200"
                 HeightRequest="50"
+                Clicked="TempoDeProducao"
                 HorizontalOptions="Center"/>
 
         <Button Text="Cliente"

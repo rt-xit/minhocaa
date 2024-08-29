@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="minhocaa.FrameCentral"
+             BackgroundColor="#3b3b3b"
+             Title="Central Inicial">
+
+    <ContentPage.Content>
+        <Grid Padding="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <Frame BackgroundColor="#6A6A6A"
+                   Padding="10"
+                   CornerRadius="10"
+                    Margin="0,0,0,100"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Start">
+                   
+                <Label Text="Central Inicial"
+                       FontSize="Large"
+                       TextColor="White"
+                       HorizontalOptions="Center"/>
+            </Frame>
+
+            <Grid Grid.Row="1"
+                  VerticalOptions="CenterAndExpand">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Button Text="Costura"
+                        Grid.Row="0"
+                        Grid.Column="0"
+                        Margin="10"
+                        Clicked="Costura"
+                        BackgroundColor="#737373"/>
+
+                <Button Text="Corte"
+                        Grid.Row="0"
+                        Grid.Column="1"
+                        Margin="10"
+                        Clicked="Corte"
+                        BackgroundColor="#737373"/>
+
+                <Button Text="Bordado"
+                        Grid.Row="1"
+                        Grid.Column="0"
+                        Margin="10"
+                        Clicked="Bordado"
+                        BackgroundColor="#737373"/>
+
+                <Button Text="Acabamento"
+                        Grid.Row="1"
+                        Grid.Column="1"
+                        Margin="10"
+                        Clicked="Acabamento"
+                        BackgroundColor="#737373"/>
+            </Grid>
+
+            <Button Text="Voltar"
+                    Grid.Row="2"
+                    FontSize="18"
+                    BackgroundColor="#0000FF"
+                    TextColor="White"
+                    HorizontalOptions="Center"
+                    WidthRequest="80"
+                    HeightRequest="50"
+                    Clicked="Voltar"
+                    Margin="0,20,0,20"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

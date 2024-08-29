@@ -18,6 +18,11 @@ namespace minhocaa
         {
            Application.Current.MainPage = new CompraTecidoMetro2();
         }
+
+        private void TempoDeProducao(object sender, EventArgs e)
+        {
+           Application.Current.MainPage = new FrameCentral();
+        }
     }
      
 }

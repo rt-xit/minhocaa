@@ -7,12 +7,20 @@
 
     <StackLayout Padding="20">
         
-            <Button Text="Corte" 
-                   TextColor="White"
-                   BackgroundColor="#808080"
-                   FontSize="30"
-                   Margin="0,80,0,100"
-                   HorizontalOptions="Center"/>
+            
+        <Frame BackgroundColor="#6A6A6A"
+                   Padding="10"
+                   CornerRadius="10"
+                    Margin="0,0,0,100"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Start">
+                   
+                <Label Text="Corte"
+                       FontSize="Large"
+                       TextColor="White"
+                       HorizontalOptions="Center"/>
+            </Frame>
+
        
         
         <Grid Padding="10">
@@ -104,21 +112,23 @@
                      Spacing="20"
                      Padding="10">
 
-            <Button Text="VOLTAR"
+            <Button Text="Voltar"
                     x:Name="VoltarButton"
-                    WidthRequest="100"
-                    HeightRequest="60"
+                    FontSize="16"
+                    WidthRequest="90"
+                    HeightRequest="50"
                     Margin="30,40,150,50"
-                    BackgroundColor="#3B82F6"
+                    BackgroundColor="Blue"
+                    Clicked="Voltar"
                     TextColor="White"/>
                     
             <Button Text="="
                     x:Name="CalcularButton"
                     FontSize="25"
-                    WidthRequest="60"
                     Margin="0,0,100,5"
-                    HeightRequest="60"
-                    BackgroundColor="#22C55E"
+                    WidthRequest="60"
+                    HeightRequest="50"
+                    BackgroundColor="Green"
                     TextColor="White"/>
 
         </StackLayout>

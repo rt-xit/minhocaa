@@ -10,23 +10,10 @@ namespace minhocaa
             InitializeComponent();
         }
 
-        private void NomeButtonClicked(object sender, EventArgs e)
+       private void Voltar(object sender, EventArgs e)
         {
-            // Lógica para quando um nome é clicado (opcional)
-            Button button = (Button)sender;
-            string nome = button.Text;
-            // ... (sua lógica aqui, por exemplo, exibir informações detalhadas sobre o nome)
+           Application.Current.MainPage = new FrameCentral();
         }
-
-        private void Calcular(object sender, EventArgs e)
-        {
-            // Lógica para o botão "=" (ainda não definida na imagem)
-            // Por exemplo, poderia calcular uma soma total ou média
-        }
-
-        private void Voltar(object sender, EventArgs e)
-        {
-            Navigation.PopAsync();
-        }
+        
     }
 }

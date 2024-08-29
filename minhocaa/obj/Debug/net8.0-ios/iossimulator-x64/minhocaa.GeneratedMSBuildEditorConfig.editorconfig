@@ -112,6 +112,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = minhocaa.FrameCadastroDeAc
 build_metadata.AdditionalFiles.TargetPath = FrameCadastroDeAcabamento.xaml
 build_metadata.AdditionalFiles.RelativePath = FrameCadastroDeAcabamento.xaml
 
+[C:/Users/Aluno/minhocaa/minhocaa/FrameCentral.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = minhocaa.FrameCentral.xaml
+build_metadata.AdditionalFiles.TargetPath = FrameCentral.xaml
+build_metadata.AdditionalFiles.RelativePath = FrameCentral.xaml
+
 [C:/Users/Aluno/minhocaa/minhocaa/FrameCliente.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = minhocaa.FrameCliente.xaml
