@@ -7,7 +7,7 @@
 
     <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Spacing="20">
 
-        <Label Text="Bem Vindo ao Site X;"
+        <Label Text="Bem Vindo ao Aplicativo X;"
                BackgroundColor="#3b3b3b"
                TextColor="White"
                FontSize="Large"
@@ -17,11 +17,12 @@
                Margin="0,0,0,70"
                HorizontalOptions="Center"/>
 
-        <Button Text="Checklist"
+        <Button Text="Lista de Presença"
                 BackgroundColor="White"
                 TextColor="Black"
                 WidthRequest="200"
                 HeightRequest="50"
+                Clicked="ListaDePresenca"
                 HorizontalOptions="Center"/>
 
         <Button Text="Tempo de Produção"

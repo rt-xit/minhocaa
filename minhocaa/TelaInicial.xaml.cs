@@ -23,6 +23,11 @@ namespace minhocaa
         {
            Application.Current.MainPage = new FrameCentral();
         }
+
+         private void ListaDePresenca(object sender, EventArgs e)
+        {
+           Application.Current.MainPage = new Checklist();
+        }
     }
      
 }

@@ -2,7 +2,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="minhocaa.Bordado"
              Shell.NavBarIsVisible="False"
-             BackgroundColor="#3b3b3b"
+             BackgroundColor="#2C2F33"
              Padding="20">
 
     <StackLayout Spacing="10" VerticalOptions="Start">
@@ -36,44 +36,44 @@
 
             <Label Text="Nome :" 
                    TextColor="White"
-                   FontSize="Medium"
+                   FontSize="20"
                    Grid.Column="0"
                    Grid.Row="0" 
                    VerticalOptions="Center"/>
 
-            <Label Text="Quantidade :" 
+            <Label Text="Quantidade:" 
                    TextColor="White"
                    FontSize="20"
                    Grid.Column="1"
                    Grid.Row="0" 
                    VerticalOptions="Center" />
 
-            <Entry Placeholder="Pedro" 
-                    BackgroundColor="#b0b0b0" 
+            <Entry Placeholder="Nome:" 
+                    BackgroundColor="White" 
                     TextColor="Black"
                     Keyboard="Numeric"
                     Grid.Column="0" 
                     Grid.Row="1" 
                     HeightRequest="40"/>
 
-           <Entry Placeholder="60 Por Hora" 
-                    BackgroundColor="#b0b0b0"
+           <Entry Placeholder="Quantidade:" 
+                    BackgroundColor="White"
                     Keyboard="Numeric"
                     TextColor="Black"
                     Grid.Column="1" 
                     Grid.Row="1" 
                     HeightRequest="40" />
 
-            <Entry Placeholder="João" 
-                    BackgroundColor="#b0b0b0" 
+            <Entry Placeholder="Nome:" 
+                    BackgroundColor="White" 
                     TextColor="Black"
                     Keyboard="Numeric"
                     Grid.Column="0" 
                     Grid.Row="2" 
                     HeightRequest="40"/>
 
-            <Entry Placeholder="50 Por Hora" 
-                    BackgroundColor="#b0b0b0" 
+            <Entry Placeholder="Quantidade:" 
+                    BackgroundColor="White" 
                     Keyboard="Numeric"
                     TextColor="Black"
                     Grid.Column="1" 
@@ -81,31 +81,31 @@
                     HeightRequest="40"/>
 
            <Entry Placeholder="Carlos" 
-                    BackgroundColor="#b0b0b0"  
+                    BackgroundColor="White"  
                     Keyboard="Numeric"
                     TextColor="Black"
                     Grid.Column="0" 
                     Grid.Row="3" 
                     HeightRequest="40"/>
 
-           <Entry Placeholder="55 Por Hora" 
-                    BackgroundColor="#b0b0b0"  
+           <Entry Placeholder="Quantidade:" 
+                    BackgroundColor="White"  
                     Keyboard="Numeric"
                     TextColor="Black"
                     Grid.Column="1" 
                     Grid.Row="3" 
                     HeightRequest="40"/>
 
-           <Entry Placeholder="Miguel" 
-                    BackgroundColor="#b0b0b0"  
+           <Entry Placeholder="Nome:" 
+                    BackgroundColor="White"  
                     Keyboard="Numeric"
                     TextColor="Black"
                     Grid.Column="0" 
                     Grid.Row="4" 
                     HeightRequest="40"/>
 
-      <Entry Placeholder="63 Por Hora" 
-                    BackgroundColor="#b0b0b0" 
+      <Entry Placeholder="Quantidade:" 
+                    BackgroundColor="White" 
                     TextColor="Black"
                     Keyboard="Numeric"
                     Grid.Column="1" 

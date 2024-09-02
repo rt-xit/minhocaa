@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="minhocaa.AcabamentoPage"
-             BackgroundColor="#555555"
+             BackgroundColor="#2C2F33"
              Title="Acabamento">
 
     <ContentPage.Content>
@@ -11,7 +11,7 @@
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="*"/>
-                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
            <Frame BackgroundColor="#6A6A6A"
@@ -37,13 +37,13 @@
                 </Grid.ColumnDefinitions>
 
                 <Label Text="NOME :"
-                       TextColor="LightGray"
+                       TextColor="White"
                        HorizontalTextAlignment="Center"
                        VerticalTextAlignment="End"
                        Grid.Column="0"/>
 
                 <Label Text="QUANTIDADE :"
-                       TextColor="LightGray"
+                       TextColor="White"
                        HorizontalTextAlignment="Center"
                        VerticalTextAlignment="End"
                        Grid.Column="1"/>
@@ -62,53 +62,54 @@
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
 
-                 <Entry Placeholder="Nome"
+                 <Entry Placeholder="Nome:"
                         Grid.Row="0"
                         Grid.Column="0"
                         Margin="5"
-                        BackgroundColor="#999999"/>
+                        TextColor="Black"
+                        BackgroundColor="White"/>
 
-                 <Entry Placeholder="Quantidade"
+                 <Entry Placeholder="Quantidade:"
                         Grid.Row="0"
                         Grid.Column="1"
                         Margin="5"
-                        BackgroundColor="#999999"/>
+                        BackgroundColor="White"/>
 
-                 <Entry Placeholder="Nome"
+                 <Entry Placeholder="Nome:"
                         Grid.Row="1"
                         Grid.Column="0"
                         Margin="5"
-                        BackgroundColor="#999999"/>
+                        BackgroundColor="White"/>
 
-                 <Entry Placeholder="Quantidade"
+                 <Entry Placeholder="Quantidade:"
                         Grid.Row="1"
                         Grid.Column="1"
                         Margin="5"
-                        BackgroundColor="#999999"/>
+                        BackgroundColor="White"/>
 
-                 <Entry Placeholder="Nome"
+                 <Entry Placeholder="Nome:"
                         Grid.Row="2"
                         Grid.Column="0"
                         Margin="5"
-                        BackgroundColor="#999999"/>
+                        BackgroundColor="White"/>
 
-                 <Entry Placeholder="Quantidade"
+                 <Entry Placeholder="Quantidade:"
                         Grid.Row="2"
                         Grid.Column="1"
                         Margin="5"
-                        BackgroundColor="#999999"/>
+                        BackgroundColor="White"/>
 
-                 <Entry Placeholder="Nome"
+                 <Entry Placeholder="Nome:"
                         Grid.Row="3"
                         Grid.Column="0"
                         Margin="5"
-                        BackgroundColor="#999999"/>
+                        BackgroundColor="White"/>
 
-                 <Entry Placeholder="Quantidade"
+                 <Entry Placeholder="Quantidade:"
                         Grid.Row="3"
                         Grid.Column="1"
                         Margin="5"
-                        BackgroundColor="#999999"/>
+                        BackgroundColor="White"/>
             </Grid>
 
             <StackLayout Grid.Row="3"

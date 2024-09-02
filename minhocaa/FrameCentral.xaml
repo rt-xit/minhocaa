@@ -2,15 +2,15 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="minhocaa.FrameCentral"
-             BackgroundColor="#3b3b3b"
+             BackgroundColor="#2C2F33"
              Title="Central Inicial">
 
     <ContentPage.Content>
         <Grid Padding="20">
             <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="auto"/>
                 <RowDefinition Height="*"/>
-                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
             <Frame BackgroundColor="#6A6A6A"
@@ -42,28 +42,32 @@
                         Grid.Column="0"
                         Margin="10"
                         Clicked="Costura"
-                        BackgroundColor="#737373"/>
+                        TextColor="Black"
+                        BackgroundColor="White"/>
 
                 <Button Text="Corte"
                         Grid.Row="0"
                         Grid.Column="1"
                         Margin="10"
                         Clicked="Corte"
-                        BackgroundColor="#737373"/>
+                        TextColor="Black"
+                        BackgroundColor="White"/>
 
                 <Button Text="Bordado"
                         Grid.Row="1"
                         Grid.Column="0"
                         Margin="10"
                         Clicked="Bordado"
-                        BackgroundColor="#737373"/>
+                        TextColor="Black"
+                        BackgroundColor="White"/>
 
                 <Button Text="Acabamento"
                         Grid.Row="1"
                         Grid.Column="1"
                         Margin="10"
                         Clicked="Acabamento"
-                        BackgroundColor="#737373"/>
+                        TextColor="Black"
+                        BackgroundColor="White"/>
             </Grid>
 
             <Button Text="Voltar"
@@ -72,7 +76,7 @@
                     BackgroundColor="#0000FF"
                     TextColor="White"
                     HorizontalOptions="Center"
-                    WidthRequest="80"
+                    WidthRequest="100"
                     HeightRequest="50"
                     Clicked="Voltar"
                     Margin="0,20,0,20"/>

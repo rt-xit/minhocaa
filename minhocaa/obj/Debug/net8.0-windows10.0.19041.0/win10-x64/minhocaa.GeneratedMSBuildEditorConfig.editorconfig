@@ -48,6 +48,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = minhocaa.CadastroDeAcabame
 build_metadata.AdditionalFiles.TargetPath = CadastroDeAcabamento.xaml
 build_metadata.AdditionalFiles.RelativePath = CadastroDeAcabamento.xaml
 
+[C:/Users/Aluno/minhocaa/minhocaa/Checklist.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = minhocaa.Checklist.xaml
+build_metadata.AdditionalFiles.TargetPath = Checklist.xaml
+build_metadata.AdditionalFiles.RelativePath = Checklist.xaml
+
 [C:/Users/Aluno/minhocaa/minhocaa/ColaboradoresDaLinha.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = minhocaa.ColaboradoresDaLinha.xaml
